@@ -34,6 +34,7 @@ showMenu () {
 
   case $choise in
     1) createContact ;;
+    2) searchContact ;;
   esac
 }
 
@@ -53,8 +54,24 @@ createContact () {
   read phone
   printf "Digite a data de aniversario dd/mm/aaaa: "
   read birthday
-  echo "$name:name=$name;lastName=$lastName;telefone=$telephone" >> agenda.txt
+  echo "$name : Nome: $name $lastName, telefone $telephone, celular $phone, nasceu em $birthday" >> agenda.txt
   showMenu
+}
+
+searchContact () {
+  clear
+  echo "------------------------------------------"
+  echo "             PROCURAR CONTATO             "
+  echo "------------------------------------------"
+  printf "Digite um nome para pesquisa: "
+  read search
+  cut -d : -f1 agenda.txt | grep $search agenda.txt -i
+  printf "Voltar ao menu? (s/n): "
+  read op
+  case $op in
+    s) showMenu ;;
+    n) searchContact ;;
+  esac
 }
 
 main () {
