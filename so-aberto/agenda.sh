@@ -38,6 +38,7 @@ showMenu () {
     1) createContact ;;
     2) searchContact ;;
     3) sortContacts ;;
+    4) editContact ;;
     5) removeContact ;;
   esac
 }
@@ -106,6 +107,38 @@ removeContact () {
   rm agenda.txt-bkp
   echo "Contato deletado com sucesso"
   goMenu removeContact
+}
+
+editContact () {
+  clear
+  echo "------------------------------------------"
+  echo "               EDITAR CONTATO             "
+  echo "------------------------------------------"
+  printf "Digite o nome do contato que queres editar: "
+  read search
+  result=$(cut -d : -f1 agenda.txt | grep $search agenda.txt -i)
+  echo $result > lixo
+  lines=$(wc -l lixo | awk '{print $1}')
+  if [[ lines == 0 ]]; then
+    echo "A sua pesquisa não retornou nenhum resultado!"
+    goMenu
+  fi
+  echo "O contato como esta hoje: $result"
+  printf "Digite o nome: "
+  read name
+  printf "Digite o sobrenome: "
+  read lastName
+  printf "Digite o telefone fixo (dd)XXXX-XXXX: "
+  read telephone
+  printf "Digite o telefone celular (dd)9XXXX-XXXX: "
+  read phone
+  printf "Digite a data de aniversario dd/mm/aaaa: "
+  read birthday
+  cp agenda.txt agenda.txt-bkp
+  grep $search -iv agenda.txt-bkp > agenda.txt
+  rm agenda.txt-bkp lixo
+  echo "$name : Nome: $name $lastName, telefone $telephone, celular $phone, nasceu em $birthday" >> agenda.txt
+  goMenu
 }
 
 main () {
