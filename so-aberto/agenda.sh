@@ -22,6 +22,8 @@ showMenu () {
   echo "                  MENU                    "
   echo "------------------------------------------"
   echo "Olá, bem vindo a agenda telefonica"
+  lines=$(wc -l agenda.txt | awk '{print $1}')
+  echo "Há $lines contato(s) na agenda"
   echo "Digite o número da opção que quer escolher:"
   echo "1 - Criar contato"
   echo "2 - Visualizar um contato específico"
@@ -107,6 +109,7 @@ removeContact () {
 }
 
 main () {
+  test -f agenda.txt || touch agenda.txt
   echo "------------------------------------------"
   echo "                 AGENDA                   "
   echo "------------------------------------------"
