@@ -36,6 +36,7 @@ showMenu () {
     1) createContact ;;
     2) searchContact ;;
     3) sortContacts ;;
+    5) removeContact ;;
   esac
 }
 
@@ -89,6 +90,20 @@ sortContacts () {
   rm agenda.txt-bkp
   echo "Os contatos foram ordenados"
   goMenu sortContacts
+}
+
+removeContact () {
+  clear
+  echo "------------------------------------------"
+  echo "              REMOVER CONTATO             "
+  echo "------------------------------------------"
+  printf "Digite o nome do contato para deletar, confira se esse contato existe antes: "
+  read contact
+  cp agenda.txt agenda.txt-bkp
+  grep $contact -iv agenda.txt-bkp > agenda.txt
+  rm agenda.txt-bkp
+  echo "Contato deletado com sucesso"
+  goMenu removeContact
 }
 
 main () {
