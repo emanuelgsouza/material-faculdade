@@ -35,6 +35,16 @@ showMenu () {
   case $choise in
     1) createContact ;;
     2) searchContact ;;
+    3) sortContacts ;;
+  esac
+}
+
+goMenu () {
+  printf "Gostaria de voltar ao menu? (s/n): "
+  read op
+  case $op in
+    s) showMenu ;;
+    n) $1 ;;
   esac
 }
 
@@ -66,12 +76,19 @@ searchContact () {
   printf "Digite um nome para pesquisa: "
   read search
   cut -d : -f1 agenda.txt | grep $search agenda.txt -i
-  printf "Voltar ao menu? (s/n): "
-  read op
-  case $op in
-    s) showMenu ;;
-    n) searchContact ;;
-  esac
+  goMenu searchContact
+}
+
+sortContacts () {
+  clear
+  echo "------------------------------------------"
+  echo "            ORDERNAR CONTATOS             "
+  echo "------------------------------------------"
+  cp agenda.txt agenda.txt-bkp
+  sort agenda.txt-bkp > agenda.txt
+  rm agenda.txt-bkp
+  echo "Os contatos foram ordenados"
+  goMenu sortContacts
 }
 
 main () {
