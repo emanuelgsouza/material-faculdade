@@ -1,6 +1,10 @@
 #!/bin/bash
 
-# Disponibilizar uma agenda telefônica que permita executar as seguintes operações: criar, recuperar, ordenar, atualizar e remover contatos. Além de operações para informar o estado da agenda (a quantidade de contatos existentes na agenda ou a quantidade de espaço disponível para novos contatos) e os aniversariantes do dia ou mês.
+# Disponibilizar uma agenda telefônica que permita executar as seguintes
+# operações: criar, recuperar, ordenar, atualizar e remover contatos. Além de
+# operações para informar o estado da agenda (a quantidade de contatos
+# existentes na agenda ou a quantidade de espaço disponível para novos
+# contatos) e os aniversariantes do dia ou mês.
 
 #Campos mínimos da agenda telefônica:
 
