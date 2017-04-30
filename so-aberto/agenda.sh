@@ -44,6 +44,7 @@ showMenu () {
 }
 
 goMenu () {
+  echo ""
   printf "Gostaria de voltar ao menu? (s/n): "
   read op
   case $op in
@@ -69,7 +70,8 @@ createContact () {
   printf "Digite a data de aniversario dd/mm/aaaa: "
   read birthday
   echo "$name : Nome: $name $lastName, telefone $telephone, celular $phone, nasceu em $birthday" >> agenda.txt
-  showMenu
+  echo "Contato adicionando com sucesso"
+  goMenu createContact
 }
 
 searchContact () {
@@ -79,7 +81,13 @@ searchContact () {
   echo "------------------------------------------"
   printf "Digite um nome para pesquisa: "
   read search
-  cut -d : -f1 agenda.txt | grep $search agenda.txt -i
+  result=$(cut -d : -f1 agenda.txt | grep $search agenda.txt -i)
+  aux=$(echo $result | wc -w | awk '{print $1}')
+  if [[ $aux > 0 ]]; then
+    echo $result
+  else
+    echo "Sua pesquisa não retornou nenhum contato"
+  fi
   goMenu searchContact
 }
 
@@ -102,10 +110,20 @@ removeContact () {
   echo "------------------------------------------"
   printf "Digite o nome do contato para deletar, confira se esse contato existe antes: "
   read contact
-  cp agenda.txt agenda.txt-bkp
-  grep $contact -iv agenda.txt-bkp > agenda.txt
-  rm agenda.txt-bkp
-  echo "Contato deletado com sucesso"
+  result=$(grep $contact agenda.txt | wc -w | awk '{print $1}')
+  if [[ $result > 0 ]]; then
+    grep $contact agenda.txt
+    printf "Quer excluir este contato? (s,n): "
+    read choose
+    if [[ $choose == "s" ]]; then
+      cp agenda.txt agenda.txt-bkp
+      grep $contact -iv agenda.txt-bkp > agenda.txt
+      rm agenda.txt-bkp
+      echo "Contato deletado com sucesso"
+    fi
+  else
+    echo "A sua pesquisa não retornou nenhum contato"
+  fi
   goMenu removeContact
 }
 
