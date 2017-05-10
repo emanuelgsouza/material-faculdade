@@ -34,6 +34,7 @@ showMenu () {
   echo "3 - Ordenar contatos"
   echo "4 - Editar contato"
   echo "5 - Remover contato"
+  echo "6 - Pesquisar aniversariante por mes ou por dia"
   echo "0 - Sair da agenda"
   printf "Digite sua escolha: "
   read choise
@@ -44,6 +45,7 @@ showMenu () {
     3) sortContacts ;;
     4) editContact ;;
     5) removeContact ;;
+    6) searchBirthday ;;
   esac
 }
 
@@ -161,6 +163,23 @@ editContact () {
   rm agenda.txt-bkp lixo
   echo "$name : Nome: $name $lastName, telefone $telephone, celular $phone, nasceu em $birthday" >> agenda.txt
   goMenu
+}
+
+searchBirthday () {
+  clear
+  printf "Quer mes ou dia para pesquisa? M - 1 e D - 0: "
+  read choise
+  if [[ $choise == 1 ]]; then
+    printf "Digite o mes de aniversario, em numeros: "
+    read choise
+    grep /$choise agenda.txt
+  fi
+  if [[ $choise == 0 ]]; then
+    printf "Digite o dia de aniversario: "
+    read choise
+    grep $choise/ agenda.txt
+  fi
+  goMenu searchBirthday
 }
 
 main () {
