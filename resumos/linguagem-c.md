@@ -105,7 +105,7 @@ Observações:
 ```c
 void somaDois (int *ponteiro, int vet[]) {
   // Aqui estou dizendo a minha função: 'Você irá receber um ponteiro'
-  *ponteiro += 2;
+  * ponteiro += 2;
 
   // Trabalho com meu vetor aqui dentro
   vet[0] = 2;
@@ -124,3 +124,38 @@ int main () {
   }
 }
 ```
+
+------------------------------------------------------------------
+
+# Structs ou Registros
+
+structs são estruturas de dados em C que guardam dados heterogêneos. O que isso significa. Em C, vetores e matrizes só podem guardar dados de apenas um tipo. Se é int, é int e acabou. Só que com struct, é possível guardar mais de um tipo de dado em uma variável.
+
+Exemplo, imagine que eu precise guardar informações de uma pessoa em uma variável, isto, com struct, seria assim:
+
+```c
+// Primeiro defino meu esquema do struct
+// Lembrando, fora de main ()
+struct Pessoa {
+  char nome[10];
+  int idade;
+  float altura;
+  char sexo;
+}
+
+void main () {
+  // Usando meu struct
+  struct emanuel;
+
+  // Acessando e modificando meu struct Emanuel
+  emanuel.nome = "Emanuel";
+  emanuel.idade = 19;
+  emanuel.altura = 1.69;
+  emanuel.sexo = "M";
+
+  // Eu posso usar as variáveis dentro do meu struct, como variáveis normais, dentro de scanf, printf e afins
+  // Informações vistas até aqui ainda valem para struct, como vetores, matrizes, ponteiros e afins
+}
+```
+
+------------------------------------------------------------------
