@@ -14,7 +14,7 @@
 + Transmissor: é o cara que está transmitindo num determinado momento
 + Receptor: é o mininote que recebe os dados
 + Interface: dispositivo que faz ponte entre receptor / transmissor e o meio físico
-+ Canal de comunicação:é o meio físico em si
++ Canal de comunicação: é o meio físico em si
 
 Há também a classificação entre os equipamentos da rede:
 
@@ -23,14 +23,14 @@ Há também a classificação entre os equipamentos da rede:
 
 ## Tipos de Tranmissão
 
-+ Simplex: transmissor transmite e receptor recebe. O fluxo é unidirecional.
++ Simplex: transmissor transmite e receptor recebe. O fluxo no meio é unidirecional.
 + Half-duplex: transmissor transmite, mas pode receber, **não ocorre simultaneamente**. O meio é bidirecional.
 + Full duplex: transmissor transmite e recebe **ao mesmo tempo**. O meio também é bidirecional.
 
 ## Tipos de meios físicos
 
 + Guiados: são aqueles em que os dados trafegarão com um percurso **fisico** definido. Podem ser: par metálico, coaxial e fibra ótica.
-+ Não guiados: São aqueles em que o meio físico não impoem um percurso aos dados. São eles: rádio terrestre (celular, frequencia e spread spectrum), satélite, wifi, infra vermelho.
++ Não guiados: São aqueles em que o meio físico não impoem um percurso aos dados. São eles: rádio terrestre (celular, frequencia e *spread spectrum*), satélite, wifi, infra vermelho.
 
 ## Tipos de rede
 
@@ -41,13 +41,13 @@ Há também a classificação entre os equipamentos da rede:
 
 # Comutação
 
-+ Por que é necessário a comutação? Por que o meio, na internet,  compartilhado. E também, é impossível que todos venham a falar ao mesmo tempo. Por isso  necessário compartilhar este meio e os recursos dele. Tipos:
++ Por que é necessário a comutação? Por que o meio, na internet é compartilhado. E também, é impossível que todos venham a falar ao mesmo tempo e se o fizessem, a rede não suportaria. Por isso torna-se necessário compartilhar este meio e os recursos dele. Tipos de comutação:
 
 ## Circuito
 
 #### Conceito
 
-A partir do estabelecimento da conexão, os pacotes irão seguir um caminho pre-determinado. Tem-se como exemplo maior, a rede telefônica.
+A partir do estabelecimento da conexão, os pacotes irão seguir um caminho pre-determinado. Tem-se como exemplo famoso, a rede de telefonia.
 
 #### Vantagens
 + Comunicação e recursos dedicados
@@ -55,6 +55,7 @@ A partir do estabelecimento da conexão, os pacotes irão seguir um caminho pre-
 
 #### Desvantagens
 + Tempo de estabelecimento da conexão > tempo de transmissão
++ Subutilização da rede
 
 ## Pacotes
 
@@ -68,7 +69,7 @@ Não há um caminho pre-determinado na rede. Conhecida como técnica do datagram
 + Melhor compartilhamento
 
 #### Desvantagens
-+ Overhead de cabeçalhos
++ Overhead de cabeçalhos para que o pacote consiga chegar ao destino 'sozinho'
 + Sem garantia de banda
 
 -----------------------------
@@ -87,11 +88,11 @@ Técnica de interpretação de um sinal e transforma-lo em um outro sinal, com c
 
 ## Processos de chaveamento
 
-+ ASK: modular atraves da alteração da amplitude
-+ FSK: modular atraves da alteração da frequencia. Possui boa imunidade a ruídos se comparado a anterior.
-+ PSK: modular atraves da alteração da fase
-+ QPSK: modular atraves da alteração da fase e quadratura. Permite mais combinações e por isso, transmite mais bits que as ateriores
-+ QAM: modular atraves da alteração da amplitude, quadratura e fase. Permite muito mais combinações, mas exigem interpretadores mais inteligentes.
++ ASK: modular através da alteração da amplitude
++ FSK: modular através da alteração da frequencia. Possui boa imunidade a ruídos se comparado ao anterior.
++ PSK: modular através da alteração da fase
++ QPSK: modular através da alteração da fase e quadratura. Permite mais combinações e por isso, transmite mais bits que as ateriores
++ QAM: modular através da alteração da amplitude, quadratura e fase. Permite muito mais combinações, mas exigem interpretadores mais inteligentes.
 + PCM: Muito utilizado em CODEC de transformação de sinal analógico para digital. Principal uso: sistemas VOIP.
 
 -----------------------------
@@ -100,7 +101,7 @@ Técnica de interpretação de um sinal e transforma-lo em um outro sinal, com c
 
 ### Por que é necessário multiplexar o meio?
 
-A banda passante, ou seja, a quantidade de dados que se quer passar em um canal, geralmente é **maior que o meio físico pode suportar ou transportar**. Sendo assim, é necessário eu fazer com que este meio possa transportar mais dados em seu limite de banda. Tal processo, é o da multiplexação. A ideia é compartilhar um mesmo meio físico para múltiplas faixas, canais.
+A banda passante, ou seja, a quantidade de dados que se quer passar em um canal, geralmente é **maior do que o meio físico pode suportar ou transportar**. Sendo assim, é necessário fazer com que este meio possa transportar mais dados em seu limite de banda. Tal processo, é conhecido como multiplexação. A ideia é compartilhar um mesmo meio físico para múltiplas canais de transmissão.
 
 ### Tipos de Multiplexação
 
@@ -108,7 +109,7 @@ A banda passante, ou seja, a quantidade de dados que se quer passar em um canal,
 
 ![Gráfico ilustrando a FDM](https://promader.files.wordpress.com/2015/03/fdm.jpg)
 
-Perceba na imagem acima, que, no eixo y eu tenho uma frequência máxima imposta pelo meio. Eu divido este canal em múltiplas bandas, faixas. Transportando assim, mais dados de diferentes origens no mesmo canal. Geralmente esta técnica é usada quando há ociosidade em frequência no canal.
+Perceba na imagem acima, que, no eixo y eu tenho uma frequência máxima imposta pelo meio. Eu divido este canal em múltiplas faixas. Transportando assim, mais dados de diferentes origens no mesmo canal. Geralmente esta técnica é usada quando há ociosidade de frequência no canal.
 
 + **TDM**: eu multiplexo o meio, alocando-o de acordo com o tempo. Esta técnica é usada geralmente, quando há ociosidade no canal relacionado ao tempo em que o mesmo fica ocioso.
 
@@ -136,8 +137,8 @@ Como vimos, nesta camada, ela tem como função segmentar a rede. Mas por que se
 
 ![Domínios de colisão e broadcast](./images/colisao-broadcast.png)
 
-+ *Domínio de colisão*: Na rede acima, há 4 domínios de colisão. Por quê? Lembre-se: **domínio de colisão é por quais caminhos um pacote poderá passar na rede**. Outra regra de ouro: **hubs e brigdes são interfaces 'burras', pois simplesmente passam para a frente o pacote, gerando um domínio de colisão. Já o switch, é mais esperto e cria um domínio de colisão para cada host conectado**.
-+ *Domínio de broadcast*: Na rede acima há 2 domínios de colisão. Por quê? Lembre-se: pacotes broadcast são pacotes enviados para  todos os hosts da rede. Só que eles param nos roteadores, sendo assim, os roteadores funcionam como segmentadores de redes broadcast.
++ *Domínio de colisão*: Na rede acima, há 4 domínios de colisão. Por quê? Lembre-se: **domínio de colisão é por quais caminhos um pacote poderá passar na rede**. Outra regra de ouro: **hubs são interfaces 'burras', pois simplesmente passam para a frente o pacote, gerando um domínio de colisão, pois todos recebem os pacotes que chegam ao hub. Já o switch, é mais esperto e cria um domínio de colisão para cada host conectado**.
++ *Domínio de broadcast*: Na rede acima há 2 domínios de broadcast. Por quê? Lembre-se: pacotes broadcast são pacotes enviados para todos os hosts da rede. Só que eles param nos roteadores, sendo assim, os roteadores funcionam como segmentadores de redes broadcast.
 
 ## Dispositivos e suas funções
 
@@ -155,13 +156,13 @@ Como vimos, nesta camada, ela tem como função segmentar a rede. Mas por que se
 
 Por quê é necessário controlar o meio? Nem todos podem falar ao mesmo tempo porque gera colisão, e ao falarem, é necessário colocar 'ordem na casa' para a retomada da transmissão. Então, se tornou necessário estabelecer protocolos de acesso ao meio. São divididos em **Métodos de acesso baseado em contenção e sem contenção**
 
-### Baseados em Contenção
+### Com contenção
 
 Não existe uma ordem de acesso, então é possível que haja a colisão e a mesma precisa ser tratada. O principal é o CSMA/CD
 
 + CSMA/CD - cada nó da rede fica escutando a mesma e toma duas decisões: 1) caso não haja transmissão eu transmito; 2) caso haja, eu espero que a mesma seja terminada. E se houver colisão. O nó mais próximo emite um sinal de que houve colisão. E todos os outros esperam determinado tempo para transmitir novamente.
 
-### Baseado sem Contenção
+### Sem contenção
 
 Não há colisão devido a ter um controle na hora da comunicação. Nestas  redes há o conceito de token, que funciona como uma permissão para transmitir ou não, se tem o token, transmite, não o tem, não transmite.
 
