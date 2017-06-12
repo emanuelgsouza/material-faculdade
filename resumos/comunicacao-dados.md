@@ -171,3 +171,28 @@ Não há colisão devido a ter um controle na hora da comunicação. Nestas  red
 + Por atenuação: devido a grandes distancias, o sinal poderá se perder ou ser atenuado, tornando-se necessário mecanismos para convertê-lo a um sinal digital, por exemplo, usando repetidores de sinal.
 + Por ruídos: toda rede tem os seus ruídos. A dificuldade está em identificá-los no meio do sinal propriamente dito.
 + Distorção: os dois acima acabam gerando a distorção, que é quando o sinal final, no receptor, não consegue ser compreendido perfeitamente devido as perda na hora da transmissão.
+
+# Ethernet
+
+Na camada de enlace há inúmeros protolos. Estes são conhecidos como a família 802 devido ao número do grupo de pesquisa responsável por essa camada. Os mais importantes são:
+
+| Número | Assunto                                 |
+|--------|-----------------------------------------|
+| 802.2  | LLC - Trata do Link do Controle Lógico  |
+| 802.3  | Ethernet                                |
+| 802.11 | Lan sem fio                             |
+| 802.15 | Redes pessoais (Bluetooth como exemplo) |
+| 802.16 | Redes de banda larga (WIMax)            |
+
+## 802.2 - LLC
+
+O link de controle lógico provê uma interface entre a camada de Rede e os métodos de acesso ao meio. Ele é importante devido ao fato de esta interface tornar desnecessária qualquer conhecimento de implantação do método de acesso a rede pela camada de Rede.
+
+## 802.3 - Ethernet
+
+Utiliza o método de acesso CSMA/CD
+
+Imagens descrevendo como funciona o processo de transmissão no CSMA/CD
+
+![Imagem 1](./images/tela1.png)
+![Imagem 2](./images/tela2.png)
