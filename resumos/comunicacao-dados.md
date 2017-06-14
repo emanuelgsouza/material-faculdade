@@ -196,3 +196,33 @@ Imagens descrevendo como funciona o processo de transmissão no CSMA/CD
 
 ![Imagem 1](./images/tela1.png)
 ![Imagem 2](./images/tela2.png)
+
+### Hub, Switchs, Brigdes e Roteadores
+
+### Domínios de Colisão
+
+### Domínios de Broadcast
+
+### Modos Switch
+
++ Store and Forward
+
++ Cut-Through
+
++ Fragment-free
+
++ Assimetric
+
+### Oversubscription
+
+### Funções Básicas dos Switchs
+
++ Aprender endereços MAC
+
++ Encaminhar ou filtrar quadros
+
++ Evitar loops usando o protocolo STP
+
+### Quadro Ethernet
+
+### Tabela ARP e suas funções
