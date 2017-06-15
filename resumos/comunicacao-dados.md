@@ -199,30 +199,62 @@ Imagens descrevendo como funciona o processo de transmissão no CSMA/CD
 
 ### Hub, Switchs, Brigdes e Roteadores
 
++ Hubs: interfaces que tornam a rede, geralmente, em topologia estrela. O hub é considerado uma interface burra, no sentido de não ter capacidade de filtrar os quadros na rede, formando um único domínio de colisão na mesma. Em suma, se um host transmite, todos os outros ouvirão.
+
++ Brigdes ou pontes: são interfaces mais inteligentes que os hubs, tendo a capacidade de filtrar o tráfego na rede, segmentando a em pelo menos dois dominios de colisão.
+
++ Switchs: interfaces mais inteligentes, provendo uma alta capacidade de filtro de quadros. O switch tem a capacidade de tornar cada saída, um domínio de colisão diferente.
+
++ Roteadores: os Roteadores surgiram com uma necessidade de proporcionar uma interconectividade entre redes de maneira mais simples. O roteador tem a capacidade de sedimentar a Rede em domínios de Broadcast.
+
 ### Domínios de Colisão
+
+É a área lógica onde os pacotes podem colidir uns contra os outros.
 
 ### Domínios de Broadcast
 
+Um domínio de broadcast é um segmento lógico de uma rede de computadores em que um computador ou qualquer outro dispositivo conectado à rede é capaz de se comunicar com outro sem a necessidade de utilizar um dispositivo de roteamento, geralmente dispositivos da camada 2 do modelo OSI.
+
 ### Modos Switch
 
-+ Store and Forward
++ *Store and Forward*: o switch armazena o quadro, e quando este chega, é verificado se há presença de erros. Não tendo, o quadro é então encaminhado para o endereço de destino. Neste modelo, **a latência é alta, mas há verificação de erros**.
 
-+ Cut-Through
++ *Cut-Through*: o switch começa a transmitir o quadro assim que o endereço MAC de destino chega. **A latência é baixa, mas não há verificação de erro**
 
-+ Fragment-free
++ *Fragment-free*: o switch checa os primeiros 64 bytes e já começa a transmitir o quadro antes de ler o checksum. Este modo tem menos latência e também verifica a maioria dos erros.
 
-+ Assimetric
++ *Assimetric*: Proporciona conexões comutadas entre portas com larguras de banda desiguais, como por exemplo uma combinação de 100 Mbps e 1000 Mbps.
 
 ### Oversubscription
 
+É a técnica de ligar vários dispositivos no mesmo switch para ganhar maior desempenho. Cada porta do switch suporta uma largura máxima de banda por um tempo prolongado. Tal característica é chamada de *backplane*. Sendo assim, um switch de 48 portas, que possua um *backplane* de 24 Gbps, tera um *oversubscription* de 2:1. Ou seja, se todos os hosts precisarem de 1 Gb ao mesmo tempo, só terão, no máximo, 500 Mbps.
+
 ### Funções Básicas dos Switchs
 
-+ Aprender endereços MAC
++ Aprender endereços MAC de dispositivos conectados.
 
-+ Encaminhar ou filtrar quadros
++ Encaminhar ou filtrar quadros para os dispositivos da rede.
 
-+ Evitar loops usando o protocolo STP
++ Evitar loops (quando um quadro fica trafegando na rede sem um destino) usando o protocolo STP (Spanning Tree Protocol).
 
 ### Quadro Ethernet
 
+O quadro é a menor unidade de tráfego na rede. Uma das funções da camada 2 do modelo OSI e sedimentar os dados das camadas superiores e quebrá-los em quadros para que, assim, possam trafegar na rede.
+
+![Modelo do Quadro Ethernet](./images/quadro-ethernet.png)
+
++ **Preâmbulo**: usado para sincronização e para acordar a interface de rede. É uma sequencia de 8 bits: **10101010**. No IEEE 802.3, o preambulo tem 7 bytes, sendo o *start frame delimiter*.
+
++ **DA e SA - Endereços de destino e origem**: são os endereços MAC dos hosts de destino e origem.
+
++ **Comprimento**: indica o comprimento do campo data.
+
++ **Tipo**: campo que indica qual o protocolo da camada 3 está fazendo uso do quadro.
+
++ **Dados**: são os dados em si (PDU da camada LLC mais os dados da camada 3). Lembrando que este campo tem que ter um tamanho mínimo **obrigatorio de 64 bytes**.
+
++ **FCS ou Frame Check Sequence**: é uma sequencia de bits que serve para verificar a integridade do quadro. Este campo carrega 32 bits para detecção de erro, calculados pela técnica de CRC – Código de Redundância Cíclica
+
 ### Tabela ARP e suas funções
+
+Esta tabela é importante, tendo em vista que se torna necessária a tradução de endereços IP para endereços MAC, em redes que utilizam a pilha TCP/IP. Esta tabela se encontra nos hosts na rede. O protocolo que traduz endereços MAC para Ips é chamado de RARP.
