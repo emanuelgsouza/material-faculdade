@@ -1,0 +1,369 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Modelagem de Dados · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="comunicacao-dados.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introdução
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    2° Período em Sistemas de Informação
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="linguagem-c.html">
+            
+                <a href="linguagem-c.html">
+            
+                    
+                    Linguagem C
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="comunicacao-dados.html">
+            
+                <a href="comunicacao-dados.html">
+            
+                    
+                    Comunicação de Dados
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="modelagem-dados.html">
+            
+                <a href="modelagem-dados.html">
+            
+                    
+                    Modelagem de Dados
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    2° Período em Análise de Sistemas
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../segundo-periodo/projetos-uml.html">
+            
+                <a href="../segundo-periodo/projetos-uml.html">
+            
+                    
+                    Analise e Projeto Orientados a Objeto
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../segundo-periodo/modelagem-relacional-dados.html">
+            
+                <a href="../segundo-periodo/modelagem-relacional-dados.html">
+            
+                    
+                    Modelo Relacional de Banco de Dados
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Modelagem de Dados</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="modelagem-de-dados">Modelagem de Dados</h1>
+<h2 id="conceitos-b&#xE1;sicos">Conceitos b&#xE1;sicos</h2>
+<ul>
+<li><strong>Dado</strong>: &#xE9; o registro de um evento. &#xC9; a base de toda informa&#xE7;&#xE3;o.</li>
+<li><strong>Informa&#xE7;&#xE3;o</strong>: dados com relev&#xE2;ncia e prop&#xF3;sito. Dado que possui um significado.</li>
+<li><strong>Conhecimento</strong>: informa&#xE7;&#xE3;o valiosa, previlegiada. Existe uma fun&#xE7;&#xE3;o &#xE9; uma a&#xE7;&#xE3;o vinculada a ela.</li>
+<li><strong>SGBD</strong>: software que funciona como uma interface entre o banco de dados f&#xED;sico e o DBA.</li>
+<li><strong>Banco de Dados</strong>: cole&#xE7;&#xE3;o de dados relacionados.</li>
+</ul>
+<h2 id="fun&#xE7;&#xF5;es-do-sgbd">Fun&#xE7;&#xF5;es do SGBD</h2>
+<ul>
+<li>Definir a estrutura do banco de dados;</li>
+<li>Construir este banco, e</li>
+<li>Manipul&#xE1;-lo.</li>
+</ul>
+<h2 id="modelo-entidade-e-relacionamento---conceitos">Modelo Entidade e Relacionamento - Conceitos</h2>
+<ul>
+<li><strong>Entidade</strong>: abstra&#xE7;&#xE3;o de conjunto de objetos com caracter&#xED;sticas semelhantes.</li>
+<li><strong>Atributo</strong>: caracteristica comum a todos os objetos da entidade.</li>
+<li><strong>Relacionamento</strong>: associa&#xE7;&#xE3;o entre entidades. Quando se estabele um, &#xE9; necess&#xE1;rio definir:<ul>
+<li>Como eles se comportam;</li>
+<li>Grau dependencia</li>
+<li>Associa&#xE7;&#xE3;o entre as entidades</li>
+</ul>
+</li>
+<li><strong>Cardinalidade</strong>: mostra o quantos objetos de uma entidade podem estar relacionados a outra entidade no relacionamento.</li>
+<li><strong>Especializa&#xE7;&#xE3;o</strong>: Um entidade geral que &#xE9; especializada em outras entidades com caracteristicas mais espec&#xED;ficas</li>
+<li><strong>Entidade Fraca</strong>: Entidade que para existir, depende de outra. Exemplo cl&#xE1;ssico: Banco e agencia.</li>
+<li><strong>Autorrelacionamento</strong>: Quando os objetos de uma entidade se relacionam com outros pertencentes a mesma entidade</li>
+</ul>
+<h2 id="tipos-de-relacionamento">Tipos de relacionamento</h2>
+<ul>
+<li>Um para um: um elemento de A est&#xE1; associado a um elemento de B</li>
+<li>Um para muitos: um elemento de A est&#xE1; relacionado a v&#xE1;rios elementos de B</li>
+<li>Muitos para muitos: muitos elementos de A est&#xE3;o relacionados a muitos elementos de B</li>
+</ul>
+<p>Observa&#xE7;&#xE3;o: quando h&#xE1; cardinalidade de 0 para muitos ou 0 para um, diz-se que n&#xE3;o &#xE9; um relacionamento obrigat&#xF3;rio.</p>
+<h2 id="aprofundando-conceitos">Aprofundando Conceitos</h2>
+<p>Quando especializamos uma entidade, procuramos definir que ela vai ter entidades derivadas dela com caracteristicas distintas. Da&#xED; deriva alguns outros conceitos:</p>
+<ul>
+<li><strong>Disjun&#xE7;&#xE3;o</strong>: quando uma entidade especializada pode ser outra especializada. Exemplo: (Aluno = classe geral) -&gt; Bolsista e Monitor. Um bolsista pode ser um monitor.</li>
+<li><strong>Restri&#xE7;&#xE3;o</strong>: quando uma entidade especializada n&#xE3;o pode ser uma outra. Exemplo: (Ve&#xED;culo Automotor) -&gt; Carro, Caminh&#xE3;o, Trator. Um carro, n&#xE3;o pode ser de outro esp&#xE9;cie, a n&#xE3;o ser carro. </li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="comunicacao-dados.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Comunicação de Dados">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Modelagem de Dados","level":"1.2.3","depth":2,"next":{"title":"2° Período em Análise de Sistemas","level":"1.3","depth":1,"ref":"","articles":[{"title":"Analise e Projeto Orientados a Objeto","level":"1.3.1","depth":2,"path":"segundo-periodo/projetos-uml.md","ref":"./segundo-periodo/projetos-uml.md","articles":[]},{"title":"Modelo Relacional de Banco de Dados","level":"1.3.2","depth":2,"path":"segundo-periodo/modelagem-relacional-dados.md","ref":"./segundo-periodo/modelagem-relacional-dados.md","articles":[]}]},"previous":{"title":"Comunicação de Dados","level":"1.2.2","depth":2,"path":"segundo-periodo-si/comunicacao-dados.md","ref":"./segundo-periodo-si/comunicacao-dados.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"segundo-periodo-si/modelagem-dados.md","mtime":"2017-08-31T00:23:36.050Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-31T01:01:04.226Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
