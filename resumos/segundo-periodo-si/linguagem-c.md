@@ -6,7 +6,7 @@ Funções são blocos de código do programa. A palavra de ordem quando usamos f
 
 Sintaxe:
 
-```
+```c
 <tipo> nomeFuncao (<tipo> parametro ...) {
   // bloco de codigo
 }

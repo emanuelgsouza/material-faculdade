@@ -1,0 +1,22 @@
+{
+  "name": "resumos-faculdade",
+  "version": "1.0.0",
+  "description": "Repositório com os resumos das matérias da faculdade para estudo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gitbook serve",
+    "build": "gitbook build . livro && git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanuelgsouza/material-faculdade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emanuelgsouza/material-faculdade/issues"
+  },
+  "homepage": "https://github.com/emanuelgsouza/material-faculdade#readme"
+}
