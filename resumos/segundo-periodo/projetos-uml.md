@@ -20,4 +20,29 @@
 
 ## Diagrama de Casos de Uso
 
+> Um caso de uso representa quem faz o que (interage) com o sistema, sem considerar o comportamento interno do sistema
+
+Em suma, o diagrama de Casos de Uso ilustra os requisitos funcionais do sistema, sem levar em conta como isso será implementado no sistema.
+
+#### Conceitos importantes:
+
+![Conceitos Iniciais](../images/uml/conceitos-iniciais.PNG)
+
++ **Elipse**: representa o caso de uso, ou seja, as funções/funcionalidades do sistema.
++ **Fronteira**: retangulo que demarca o espaço do sistema em relação ao espaço não participante do sistema.
++ **Ator**: pesssoa/sistema que interage com o sistema.
++ **Setas/Linhas**: representam os relacionamentos entre atores/funcionalidades
+  + Ator primário: é o que dispara o caso de uso. Que interaje diretamente com o caso de uso.
+  + Ator secundário: é que auxilia o ator primário na execução do caso de uso. Não interaje diretamente com o caso de uso.
+
+#### Estereótipos - ocorre entre casos de uso:
+
++ Include: representa um relacionamento obrigatório. Exemplo: ao executar o caso de uso `efetuar venda`, obrigatoriamente será executado o caso de uso `emitir nota fiscal`.
+
++ Extend: representa um relacionamento não obrigatório. Exemplo: para ser executado o caso de uso `efetuar venda`, não é obrigatório executar o caso de uso `autorizar venda`.
+
+Exemplo:
+
+![Exemplo de Include e Extensão](../images/uml/extend-include-uml.PNG)
+
 ## Diagrama de Classes

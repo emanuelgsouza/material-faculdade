@@ -249,6 +249,55 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="analise-e-projeto-orientados-a-objeto">Analise e Projeto Orientados a Objeto</h1>
+<h2 id="processo-de-desenvolvimento-de-software">Processo de desenvolvimento de software</h2>
+<ul>
+<li><strong>An&#xE1;lise</strong>: consiste em levantar os requisitos do sistema proposto com o objetivo de entender o seu funcionamento.</li>
+<li><strong>Projeto</strong>: considera os aspectos l&#xF3;gicos e independentes de implementa&#xE7;&#xE3;o. Nesta fase, determina-se como o sistema funcionar&#xE1;. Como artefatos s&#xE3;o produzidos diagramas de casos de uso, diagramas de classes entre outros.</li>
+<li><strong>Implementa&#xE7;&#xE3;o</strong>: &#xE9; a fase de codifica&#xE7;&#xE3;o utilizando linguagem de programa&#xE7;&#xE3;o.</li>
+<li><strong>Testes</strong>: nesta etapa s&#xE3;o realizados testes para verifica&#xE7;&#xE3;o / detec&#xE7;&#xE3;o de erros.</li>
+<li><strong>Implanta&#xE7;&#xE3;o</strong>: o sistema &#xE9; impacotado, distribu&#xED;do e instalado no ambiente do usu&#xE1;rio.</li>
+</ul>
+<h2 id="requisitos">Requisitos</h2>
+<p>&#xC9; uma condi&#xE7;&#xE3;o ou uma necessidade que o sistema se prop&#xF5;e. Podem ser do tipo:</p>
+<ul>
+<li><p><strong>Requisitos funcionais</strong>: definem as funcionalidades a serem desenvolvidas do sistema. Exemplo:</p>
+<blockquote>
+<p>O sistema deve permitir lan&#xE7;ar nota pelo professor.</p>
+</blockquote>
+</li>
+<li><p><strong>Requisitos n&#xE3;o-funcionais</strong>: declaram as caracter&#xED;sticas de qualidade que o sistema deve possuir e que est&#xE3;o relacionadas &#xE0;s suas funcionalidades. Exemplo:</p>
+<blockquote>
+<p>Confiabilidade, desempenho, seguran&#xE7;a...</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="diagrama-de-casos-de-uso">Diagrama de Casos de Uso</h2>
+<blockquote>
+<p>Um caso de uso representa quem faz o que (interage) com o sistema, sem considerar o comportamento interno do sistema</p>
+</blockquote>
+<p>Em suma, o diagrama de Casos de Uso ilustra os requisitos funcionais do sistema, sem levar em conta como isso ser&#xE1; implementado no sistema.</p>
+<h4 id="conceitos-importantes">Conceitos importantes:</h4>
+<p><img src="../images/uml/conceitos-iniciais.PNG" alt="Conceitos Iniciais"></p>
+<ul>
+<li><strong>Elipse</strong>: representa o caso de uso, ou seja, as fun&#xE7;&#xF5;es/funcionalidades do sistema.</li>
+<li><strong>Fronteira</strong>: retangulo que demarca o espa&#xE7;o do sistema em rela&#xE7;&#xE3;o ao espa&#xE7;o n&#xE3;o participante do sistema.</li>
+<li><strong>Ator</strong>: pesssoa/sistema que interage com o sistema.</li>
+<li><strong>Setas/Linhas</strong>: representam os relacionamentos entre atores/funcionalidades<ul>
+<li>Ator prim&#xE1;rio: &#xE9; o que dispara o caso de uso. Que interaje diretamente com o caso de uso.</li>
+<li>Ator secund&#xE1;rio: &#xE9; que auxilia o ator prim&#xE1;rio na execu&#xE7;&#xE3;o do caso de uso. N&#xE3;o interaje diretamente com o caso de uso.</li>
+</ul>
+</li>
+</ul>
+<h4 id="estere&#xF3;tipos---ocorre-entre-casos-de-uso">Estere&#xF3;tipos - ocorre entre casos de uso:</h4>
+<ul>
+<li><p>Include: representa um relacionamento obrigat&#xF3;rio. Exemplo: ao executar o caso de uso <code>efetuar venda</code>, obrigatoriamente ser&#xE1; executado o caso de uso <code>emitir nota fiscal</code>.</p>
+</li>
+<li><p>Extend: representa um relacionamento n&#xE3;o obrigat&#xF3;rio. Exemplo: para ser executado o caso de uso <code>efetuar venda</code>, n&#xE3;o &#xE9; obrigat&#xF3;rio executar o caso de uso <code>autorizar venda</code>.</p>
+</li>
+</ul>
+<p>Exemplo:</p>
+<p><img src="../images/uml/extend-include-uml.PNG" alt="Exemplo de Include e Extens&#xE3;o"></p>
+<h2 id="diagrama-de-classes">Diagrama de Classes</h2>
 
                                 
                                 </section>
@@ -288,7 +337,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Analise e Projeto Orientados a Objeto","level":"1.3.1","depth":2,"next":{"title":"Modelo Relacional de Banco de Dados","level":"1.3.2","depth":2,"path":"segundo-periodo/modelagem-relacional-dados.md","ref":"./segundo-periodo/modelagem-relacional-dados.md","articles":[]},"previous":{"title":"2° Período em Análise de Sistemas","level":"1.3","depth":1,"ref":"","articles":[{"title":"Analise e Projeto Orientados a Objeto","level":"1.3.1","depth":2,"path":"segundo-periodo/projetos-uml.md","ref":"./segundo-periodo/projetos-uml.md","articles":[]},{"title":"Modelo Relacional de Banco de Dados","level":"1.3.2","depth":2,"path":"segundo-periodo/modelagem-relacional-dados.md","ref":"./segundo-periodo/modelagem-relacional-dados.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"segundo-periodo/projetos-uml.md","mtime":"2017-08-31T00:50:49.825Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-08-31T00:36:38.563Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Analise e Projeto Orientados a Objeto","level":"1.3.1","depth":2,"next":{"title":"Modelo Relacional de Banco de Dados","level":"1.3.2","depth":2,"path":"segundo-periodo/modelagem-relacional-dados.md","ref":"./segundo-periodo/modelagem-relacional-dados.md","articles":[]},"previous":{"title":"2° Período em Análise de Sistemas","level":"1.3","depth":1,"ref":"","articles":[{"title":"Analise e Projeto Orientados a Objeto","level":"1.3.1","depth":2,"path":"segundo-periodo/projetos-uml.md","ref":"./segundo-periodo/projetos-uml.md","articles":[]},{"title":"Modelo Relacional de Banco de Dados","level":"1.3.2","depth":2,"path":"segundo-periodo/modelagem-relacional-dados.md","ref":"./segundo-periodo/modelagem-relacional-dados.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"segundo-periodo/projetos-uml.md","mtime":"2017-09-05T02:43:57.282Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-05T01:47:01.210Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
