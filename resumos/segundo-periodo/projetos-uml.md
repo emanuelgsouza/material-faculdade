@@ -46,3 +46,20 @@ Exemplo:
 ![Exemplo de Include e Extensão](../images/uml/extend-include-uml.PNG)
 
 ## Diagrama de Classes
+
+Um Diagrama de Classes é um diagrama do tipo estático que define quais as entidades em seus sistema bem como o relacionamento entre elas.
+
+Podemos visualizar o diagrama de classes que nos fornece as seguintes perspectivas:
+
++ **Conceitual**, pois fornece os principais conceitos do sistema, bem como os domínios do mesmo.
++ **Especificação**, pois oferece a possibilidade de compreender os métodos do sistema, sem fornecer como os mesmos irão ser implementados.
++ **Implementação**, pois fornece os principais detalhes de implementação do sistema, como visibilidade e tipos de atributos das classes.
+
+#### Principais conceitos:
+
++ **Classes**: são as abstrações das entidades. Podemos fazer paralelo com as entidades de um Modelo Entidade-Relacionamento(EE).
++ **Relacionamentos**: são as associações entre as classes. Novamente, é possível fazer paralelo com o Modelo EE.
+
+A seguir, uma imagem com os principais conceitos:
+
+![Principais conceitos](http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/uml/diagramas/classes/images/image035.gif)
