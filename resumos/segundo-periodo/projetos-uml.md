@@ -57,9 +57,11 @@ Podemos visualizar o diagrama de classes que nos fornece as seguintes perspectiv
 
 #### Principais conceitos:
 
+![Principais conceitos](../images/diagrama-classes-conceitos.png)
+
 + **Classes**: são as abstrações das entidades. Podemos fazer paralelo com as entidades de um Modelo Entidade-Relacionamento(EE).
-+ **Relacionamentos**: são as associações entre as classes. Novamente, é possível fazer paralelo com o Modelo EE.
-
-A seguir, uma imagem com os principais conceitos:
-
-![Principais conceitos](http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/uml/diagramas/classes/images/image035.gif)
++ **Relacionamentos / associações**: são as associações entre as classes. Novamente, é possível fazer paralelo com o Modelo EE.
++ **Papel**: papel desempenhado pela classe quando se relaciona com outra classe.
++ **Generalização**: é o ato de generalizar uma classe em outra classe. O processo oposto é de **especialização**.
++ **Atributos**: características da classe.
++ **Operações / métodos**: são os métodos da classe.
