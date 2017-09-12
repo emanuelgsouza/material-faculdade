@@ -60,8 +60,21 @@ Podemos visualizar o diagrama de classes que nos fornece as seguintes perspectiv
 ![Principais conceitos](../images/diagrama-classes-conceitos.png)
 
 + **Classes**: são as abstrações das entidades. Podemos fazer paralelo com as entidades de um Modelo Entidade-Relacionamento(EE).
+
 + **Relacionamentos / associações**: são as associações entre as classes. Novamente, é possível fazer paralelo com o Modelo EE.
+
 + **Papel**: papel desempenhado pela classe quando se relaciona com outra classe.
+
 + **Generalização**: é o ato de generalizar uma classe em outra classe. O processo oposto é de **especialização**.
+
 + **Atributos**: características da classe.
-+ **Operações / métodos**: são os métodos da classe.
+
++ **Operações / métodos**: são os métodos da classe
+
++ **Classe associativa**: é uma classe que nasce de uma associação. Exemplo: registrar logs de operações de um determinado usuário no sistema.
+
++ **Agregação**: É quando ocorre uma associação entre classes, em que uma é parte e outra é o todo. Exemplo: classe JOGADOR que se relaciona com o CLUBE que se relaciona com ASSOCIAÇÃO.
+
++ **Associações reflexivas**: É quando a classe se associase a ela mesma. Conhecido no Modelo EE como Auto Relacionamento.
+
++ **Multiplicidade**: é a famosa 'cardinalidade', que define quantas instancias de uma classe pode se relacionar com tantas instancias de outra classe.
