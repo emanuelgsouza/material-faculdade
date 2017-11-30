@@ -78,3 +78,29 @@ Podemos visualizar o diagrama de classes que nos fornece as seguintes perspectiv
 + **Associações reflexivas**: É quando a classe se associase a ela mesma. Conhecido no Modelo EE como Auto Relacionamento.
 
 + **Multiplicidade**: é a famosa 'cardinalidade', que define quantas instancias de uma classe pode se relacionar com tantas instancias de outra classe.
+
+## Diagrama de estados
+
+É o diagrama que representa as mudanças de estado de um objeto no sistema
+
+### Conceitos apresentados no livro Princípios da UML, do Bezerra
+
++ **Estado**: Um estado é uma situação na vida de um objeto durante a qual ele satisfaz algu­ma condição ou realiza alguma atividade. Um estado tem a ver com o valor de um atributo do objeto, como por exemplo, dizer-se que uma conta bancária está vermelha.
+
++ **Transições**: Os estados estão associados a outros pelas transições. Uma transição é mostrada como uma linha conectando estados, com uma seta apontando para um dos es­tados. Quando ocorre uma transição entre estados, diz-se que a transição foi dis­parada.
+
++ **Evento**: Uma transição possui um evento associado. Um evento é algo que acontece em algum ponto no tempo e que pode modificar o estado de um objeto.
+
++ **Condição de guarda**: é uma expressao que retorna um valor lógico. Ela é acionada quando o objeto vai mudar de estado. Se retornar positivo, ocorre a mudança, do contrário, não ocorre.
+
++ **Ações**: ao passar de um estado para um outro, o objeto pode executar uma mais ações.
+
++ **Estados aninhados**: ocorre quando um estado possui outros estados dentro de si. Também é conhecido como *composto*.
+
+Exemplo básico
+
+![Exemplos básicos](../images/uml/diagrama-estados1.png)
+
+Exemplo um pouco mais complexo
+
+![Exemplos um pouco mais complexo](../images/uml/diagrama-estados2.png)

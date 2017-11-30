@@ -298,6 +298,58 @@
 <p>Exemplo:</p>
 <p><img src="../images/uml/extend-include-uml.PNG" alt="Exemplo de Include e Extens&#xE3;o"></p>
 <h2 id="diagrama-de-classes">Diagrama de Classes</h2>
+<p>Um Diagrama de Classes &#xE9; um diagrama do tipo est&#xE1;tico que define quais as entidades em seus sistema bem como o relacionamento entre elas.</p>
+<p>Podemos visualizar o diagrama de classes que nos fornece as seguintes perspectivas:</p>
+<ul>
+<li><strong>Conceitual</strong>, pois fornece os principais conceitos do sistema, bem como os dom&#xED;nios do mesmo.</li>
+<li><strong>Especifica&#xE7;&#xE3;o</strong>, pois oferece a possibilidade de compreender os m&#xE9;todos do sistema, sem fornecer como os mesmos ir&#xE3;o ser implementados.</li>
+<li><strong>Implementa&#xE7;&#xE3;o</strong>, pois fornece os principais detalhes de implementa&#xE7;&#xE3;o do sistema, como visibilidade e tipos de atributos das classes.</li>
+</ul>
+<h4 id="principais-conceitos">Principais conceitos:</h4>
+<p><img src="../images/diagrama-classes-conceitos.png" alt="Principais conceitos"></p>
+<ul>
+<li><p><strong>Classes</strong>: s&#xE3;o as abstra&#xE7;&#xF5;es das entidades. Podemos fazer paralelo com as entidades de um Modelo Entidade-Relacionamento(EE).</p>
+</li>
+<li><p><strong>Relacionamentos / associa&#xE7;&#xF5;es</strong>: s&#xE3;o as associa&#xE7;&#xF5;es entre as classes. Novamente, &#xE9; poss&#xED;vel fazer paralelo com o Modelo EE.</p>
+</li>
+<li><p><strong>Papel</strong>: papel desempenhado pela classe quando se relaciona com outra classe.</p>
+</li>
+<li><p><strong>Generaliza&#xE7;&#xE3;o</strong>: &#xE9; o ato de generalizar uma classe em outra classe. O processo oposto &#xE9; de <strong>especializa&#xE7;&#xE3;o</strong>.</p>
+</li>
+<li><p><strong>Atributos</strong>: caracter&#xED;sticas da classe.</p>
+</li>
+<li><p><strong>Opera&#xE7;&#xF5;es / m&#xE9;todos</strong>: s&#xE3;o os m&#xE9;todos da classe</p>
+</li>
+<li><p><strong>Classe associativa</strong>: &#xE9; uma classe que nasce de uma associa&#xE7;&#xE3;o. Exemplo: registrar logs de opera&#xE7;&#xF5;es de um determinado usu&#xE1;rio no sistema.</p>
+</li>
+<li><p><strong>Agrega&#xE7;&#xE3;o</strong>: &#xC9; quando ocorre uma associa&#xE7;&#xE3;o entre classes, em que uma &#xE9; parte e outra &#xE9; o todo. Exemplo: classe JOGADOR que se relaciona com o CLUBE que se relaciona com ASSOCIA&#xC7;&#xC3;O.</p>
+</li>
+<li><p><strong>Associa&#xE7;&#xF5;es reflexivas</strong>: &#xC9; quando a classe se associase a ela mesma. Conhecido no Modelo EE como Auto Relacionamento.</p>
+</li>
+<li><p><strong>Multiplicidade</strong>: &#xE9; a famosa &apos;cardinalidade&apos;, que define quantas instancias de uma classe pode se relacionar com tantas instancias de outra classe.</p>
+</li>
+</ul>
+<h2 id="diagrama-de-estados">Diagrama de estados</h2>
+<p>&#xC9; o diagrama que representa as mudan&#xE7;as de estado de um objeto no sistema</p>
+<h3 id="conceitos-apresentados-no-livro-princ&#xED;pios-da-uml-do-bezerra">Conceitos apresentados no livro Princ&#xED;pios da UML, do Bezerra</h3>
+<ul>
+<li><p><strong>Estado</strong>: Um estado &#xE9; uma situa&#xE7;&#xE3;o na vida de um objeto durante a qual ele satisfaz algu&#xAD;ma condi&#xE7;&#xE3;o ou realiza alguma atividade. Um estado tem a ver com o valor de um atributo do objeto, como por exemplo, dizer-se que uma conta banc&#xE1;ria est&#xE1; vermelha.</p>
+</li>
+<li><p><strong>Transi&#xE7;&#xF5;es</strong>: Os estados est&#xE3;o associados a outros pelas transi&#xE7;&#xF5;es. Uma transi&#xE7;&#xE3;o &#xE9; mostrada como uma linha conectando estados, com uma seta apontando para um dos es&#xAD;tados. Quando ocorre uma transi&#xE7;&#xE3;o entre estados, diz-se que a transi&#xE7;&#xE3;o foi dis&#xAD;parada.</p>
+</li>
+<li><p><strong>Evento</strong>: Uma transi&#xE7;&#xE3;o possui um evento associado. Um evento &#xE9; algo que acontece em algum ponto no tempo e que pode modificar o estado de um objeto.</p>
+</li>
+<li><p><strong>Condi&#xE7;&#xE3;o de guarda</strong>: &#xE9; uma expressao que retorna um valor l&#xF3;gico. Ela &#xE9; acionada quando o objeto vai mudar de estado. Se retornar positivo, ocorre a mudan&#xE7;a, do contr&#xE1;rio, n&#xE3;o ocorre.</p>
+</li>
+<li><p><strong>A&#xE7;&#xF5;es</strong>: ao passar de um estado para um outro, o objeto pode executar uma mais a&#xE7;&#xF5;es.</p>
+</li>
+<li><p><strong>Estados aninhados</strong>: ocorre quando um estado possui outros estados dentro de si. Tamb&#xE9;m &#xE9; conhecido como <em>composto</em>.</p>
+</li>
+</ul>
+<p>Exemplo b&#xE1;sico</p>
+<p><img src="../images/uml/diagrama-estados1.png" alt="Exemplos b&#xE1;sicos"></p>
+<p>Exemplo um pouco mais complexo</p>
+<p><img src="../images/uml/diagrama-estados2.png" alt="Exemplos um pouco mais complexo"></p>
 
                                 
                                 </section>
@@ -337,7 +389,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Analise e Projeto Orientados a Objeto","level":"1.3.1","depth":2,"next":{"title":"Modelo Relacional de Banco de Dados","level":"1.3.2","depth":2,"path":"segundo-periodo/modelagem-relacional-dados.md","ref":"./segundo-periodo/modelagem-relacional-dados.md","articles":[]},"previous":{"title":"2° Período em Análise de Sistemas","level":"1.3","depth":1,"ref":"","articles":[{"title":"Analise e Projeto Orientados a Objeto","level":"1.3.1","depth":2,"path":"segundo-periodo/projetos-uml.md","ref":"./segundo-periodo/projetos-uml.md","articles":[]},{"title":"Modelo Relacional de Banco de Dados","level":"1.3.2","depth":2,"path":"segundo-periodo/modelagem-relacional-dados.md","ref":"./segundo-periodo/modelagem-relacional-dados.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"segundo-periodo/projetos-uml.md","mtime":"2017-09-05T02:43:57.282Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-05T01:47:01.210Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Analise e Projeto Orientados a Objeto","level":"1.3.1","depth":2,"next":{"title":"Modelo Relacional de Banco de Dados","level":"1.3.2","depth":2,"path":"segundo-periodo/modelagem-relacional-dados.md","ref":"./segundo-periodo/modelagem-relacional-dados.md","articles":[]},"previous":{"title":"2° Período em Análise de Sistemas","level":"1.3","depth":1,"ref":"","articles":[{"title":"Analise e Projeto Orientados a Objeto","level":"1.3.1","depth":2,"path":"segundo-periodo/projetos-uml.md","ref":"./segundo-periodo/projetos-uml.md","articles":[]},{"title":"Modelo Relacional de Banco de Dados","level":"1.3.2","depth":2,"path":"segundo-periodo/modelagem-relacional-dados.md","ref":"./segundo-periodo/modelagem-relacional-dados.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"segundo-periodo/projetos-uml.md","mtime":"2017-11-30T22:31:41.800Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-30T22:28:28.958Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
