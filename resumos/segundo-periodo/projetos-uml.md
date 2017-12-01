@@ -63,9 +63,13 @@ Podemos visualizar o diagrama de classes que nos fornece as seguintes perspectiv
 
 + **Relacionamentos / associações**: são as associações entre as classes. Novamente, é possível fazer paralelo com o Modelo EE.
 
+![Exemplo de associação](../images/uml/diagrama-classes1.png)
+
 + **Papel**: papel desempenhado pela classe quando se relaciona com outra classe.
 
 + **Generalização**: é o ato de generalizar uma classe em outra classe. O processo oposto é de **especialização**.
+
+![Exemplo de generalização](http://www.linhadecodigo.com.br/artigos/img_artigos/admilson_nogueira/uml_generalizacao.jpg)
 
 + **Atributos**: características da classe.
 
@@ -74,6 +78,12 @@ Podemos visualizar o diagrama de classes que nos fornece as seguintes perspectiv
 + **Classe associativa**: é uma classe que nasce de uma associação. Exemplo: registrar logs de operações de um determinado usuário no sistema.
 
 + **Agregação**: É quando ocorre uma associação entre classes, em que uma é parte e outra é o todo. Exemplo: classe JOGADOR que se relaciona com o CLUBE que se relaciona com ASSOCIAÇÃO.
+
+![Exemplo de agregação](../images/uml/diagrama-classes2.png)
+
++ **Composição**: é quando ocorre uma associação entre classes, em que a classe TODO é responsável pelas suas partes de tal forma que se a classe TODO deixa de existir, as suas partes também
+
+![Exemplo de agregação](../images/uml/diagrama-classes3.png)
 
 + **Associações reflexivas**: É quando a classe se associase a ela mesma. Conhecido no Modelo EE como Auto Relacionamento.
 
@@ -104,3 +114,25 @@ Exemplo básico
 Exemplo um pouco mais complexo
 
 ![Exemplos um pouco mais complexo](../images/uml/diagrama-estados2.png)
+
+## Diagrama de sequencia
+
+O objetivo deste diagrama é explicitar a interação entre objetos numa ordem temporal em que elas acontecem.
+
+Elementos:
+
++ **Linha de vida**: uma linha de vida mostra o tempo a qual o objeto tem sua "vida" no sistema.
+
+Exemplos de linha de vida:
+
+![Exemplos de linha de vida](../images/uml/diagrama-estados3.png)
+
++ **Mensagem**: uma mensagem é quando um objeto envia uma ação a outro. Neste diagrama, uma mensagem é referenciada como uma seta entre uma linha de vida e outra
+
+Exemplos de formatos de mensagens
+
+![Exemplos de formatos de mensagens](../images/uml/diagrama-estados4.png)
+
+Exemplo de diagrama de sequencia
+
+![Exemplo de diagrama de sequencia](https://www.ime.usp.br/~kon/MAC5715/2002/DesignFest/M2/diagramaDeSequenciaDeEscolheSessao.jpg)

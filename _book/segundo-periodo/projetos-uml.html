@@ -312,10 +312,16 @@
 </li>
 <li><p><strong>Relacionamentos / associa&#xE7;&#xF5;es</strong>: s&#xE3;o as associa&#xE7;&#xF5;es entre as classes. Novamente, &#xE9; poss&#xED;vel fazer paralelo com o Modelo EE.</p>
 </li>
+</ul>
+<p><img src="../images/uml/diagrama-classes1.png" alt="Exemplo de associa&#xE7;&#xE3;o"></p>
+<ul>
 <li><p><strong>Papel</strong>: papel desempenhado pela classe quando se relaciona com outra classe.</p>
 </li>
 <li><p><strong>Generaliza&#xE7;&#xE3;o</strong>: &#xE9; o ato de generalizar uma classe em outra classe. O processo oposto &#xE9; de <strong>especializa&#xE7;&#xE3;o</strong>.</p>
 </li>
+</ul>
+<p><img src="http://www.linhadecodigo.com.br/artigos/img_artigos/admilson_nogueira/uml_generalizacao.jpg" alt="Exemplo de generaliza&#xE7;&#xE3;o"></p>
+<ul>
 <li><p><strong>Atributos</strong>: caracter&#xED;sticas da classe.</p>
 </li>
 <li><p><strong>Opera&#xE7;&#xF5;es / m&#xE9;todos</strong>: s&#xE3;o os m&#xE9;todos da classe</p>
@@ -324,6 +330,13 @@
 </li>
 <li><p><strong>Agrega&#xE7;&#xE3;o</strong>: &#xC9; quando ocorre uma associa&#xE7;&#xE3;o entre classes, em que uma &#xE9; parte e outra &#xE9; o todo. Exemplo: classe JOGADOR que se relaciona com o CLUBE que se relaciona com ASSOCIA&#xC7;&#xC3;O.</p>
 </li>
+</ul>
+<p><img src="../images/uml/diagrama-classes2.png" alt="Exemplo de agrega&#xE7;&#xE3;o"></p>
+<ul>
+<li><strong>Composi&#xE7;&#xE3;o</strong>: &#xE9; quando ocorre uma associa&#xE7;&#xE3;o entre classes, em que a classe TODO &#xE9; respons&#xE1;vel pelas suas partes de tal forma que se a classe TODO deixa de existir, as suas partes tamb&#xE9;m</li>
+</ul>
+<p><img src="../images/uml/diagrama-classes3.png" alt="Exemplo de agrega&#xE7;&#xE3;o"></p>
+<ul>
 <li><p><strong>Associa&#xE7;&#xF5;es reflexivas</strong>: &#xC9; quando a classe se associase a ela mesma. Conhecido no Modelo EE como Auto Relacionamento.</p>
 </li>
 <li><p><strong>Multiplicidade</strong>: &#xE9; a famosa &apos;cardinalidade&apos;, que define quantas instancias de uma classe pode se relacionar com tantas instancias de outra classe.</p>
@@ -350,6 +363,21 @@
 <p><img src="../images/uml/diagrama-estados1.png" alt="Exemplos b&#xE1;sicos"></p>
 <p>Exemplo um pouco mais complexo</p>
 <p><img src="../images/uml/diagrama-estados2.png" alt="Exemplos um pouco mais complexo"></p>
+<h2 id="diagrama-de-sequencia">Diagrama de sequencia</h2>
+<p>O objetivo deste diagrama &#xE9; explicitar a intera&#xE7;&#xE3;o entre objetos numa ordem temporal em que elas acontecem.</p>
+<p>Elementos:</p>
+<ul>
+<li><strong>Linha de vida</strong>: uma linha de vida mostra o tempo a qual o objeto tem sua &quot;vida&quot; no sistema.</li>
+</ul>
+<p>Exemplos de linha de vida:</p>
+<p><img src="../images/uml/diagrama-estados3.png" alt="Exemplos de linha de vida"></p>
+<ul>
+<li><strong>Mensagem</strong>: uma mensagem &#xE9; quando um objeto envia uma a&#xE7;&#xE3;o a outro. Neste diagrama, uma mensagem &#xE9; referenciada como uma seta entre uma linha de vida e outra</li>
+</ul>
+<p>Exemplos de formatos de mensagens</p>
+<p><img src="../images/uml/diagrama-estados4.png" alt="Exemplos de formatos de mensagens"></p>
+<p>Exemplo de diagrama de sequencia</p>
+<p><img src="https://www.ime.usp.br/~kon/MAC5715/2002/DesignFest/M2/diagramaDeSequenciaDeEscolheSessao.jpg" alt="Exemplo de diagrama de sequencia"></p>
 
                                 
                                 </section>
@@ -389,7 +417,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Analise e Projeto Orientados a Objeto","level":"1.3.1","depth":2,"next":{"title":"Modelo Relacional de Banco de Dados","level":"1.3.2","depth":2,"path":"segundo-periodo/modelagem-relacional-dados.md","ref":"./segundo-periodo/modelagem-relacional-dados.md","articles":[]},"previous":{"title":"2° Período em Análise de Sistemas","level":"1.3","depth":1,"ref":"","articles":[{"title":"Analise e Projeto Orientados a Objeto","level":"1.3.1","depth":2,"path":"segundo-periodo/projetos-uml.md","ref":"./segundo-periodo/projetos-uml.md","articles":[]},{"title":"Modelo Relacional de Banco de Dados","level":"1.3.2","depth":2,"path":"segundo-periodo/modelagem-relacional-dados.md","ref":"./segundo-periodo/modelagem-relacional-dados.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"segundo-periodo/projetos-uml.md","mtime":"2017-11-30T22:31:41.800Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-30T22:28:28.958Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Analise e Projeto Orientados a Objeto","level":"1.3.1","depth":2,"next":{"title":"Modelo Relacional de Banco de Dados","level":"1.3.2","depth":2,"path":"segundo-periodo/modelagem-relacional-dados.md","ref":"./segundo-periodo/modelagem-relacional-dados.md","articles":[]},"previous":{"title":"2° Período em Análise de Sistemas","level":"1.3","depth":1,"ref":"","articles":[{"title":"Analise e Projeto Orientados a Objeto","level":"1.3.1","depth":2,"path":"segundo-periodo/projetos-uml.md","ref":"./segundo-periodo/projetos-uml.md","articles":[]},{"title":"Modelo Relacional de Banco de Dados","level":"1.3.2","depth":2,"path":"segundo-periodo/modelagem-relacional-dados.md","ref":"./segundo-periodo/modelagem-relacional-dados.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"segundo-periodo/projetos-uml.md","mtime":"2017-12-01T01:03:21.789Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-01T00:59:28.995Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
