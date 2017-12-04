@@ -213,6 +213,10 @@ Exemplo de diagrama de sequencia
 
 > O ator que interage dispara o fluxo. Ele interage com o controlador ou a view. Se for a view, está emite uma mensagem para o controlador para que este converse com a classe de negócio, que contém o método necessário a ação.
 
+Exemplo com figuras para o controler e view
+
+![Exemplo com figuras para o controler e view](https://i.stack.imgur.com/eb7WB.png)
+
 ---
 
 ## Diagrama de pacotes:
