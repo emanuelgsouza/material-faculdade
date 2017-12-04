@@ -66,15 +66,73 @@ Segundo a Unidade de Aprendizagem 3 da matéria:
 
 ## Ciclos de vida de um Software
 
+Ciclo de vida diz respeito as etapas de como o software poderá ser contruído e em quais momentos são feitos os documentos resultantes dessas etapas.
+
+Independentemente do ciclo escolhido, o processo será o mesmo:
+
+* Conhecimento do problema
+* Representação conceitual da solução
+* E como a mesma será implantada
+
 ### Cascata
+
+#### Caracteristicas
+
+* As etapas são feitas seguidamente
+* Cada término de etapa serve de entrada para outra etapa
+* É gerado um documento a cada etapa
+
+#### Pontos positivos
+
+* Simples de implementar
+
+#### Pontos negativos
+
+* Tem-se dificuldade com mudanças de requisitos
+* Demora-se para entregar algo utilizável para o usuário
+* Processo burocrático
+
+![](https://engenhariasoftware.files.wordpress.com/2013/01/cascata.png)
 
 ### Prototipagem
 
+#### Caracteristicas
+
+* Desenvolvimento rápido e portanto, rápida entrega
+
+#### Pontos positivos
+
+* Intensa participação do usuário
+* Facilidade em modificar a estrutura do software
+
+![](http://api.ning.com/files/aNZ9EZ3f4*xUo9zpIgot1pGWp0CNK*AJfry9rkERSGj7cPA65x8ck2bmeCnzghDCC0zLuJJQN4k3Ad0tv7BJwwJ956qbgXwW/proto.png)
+
 ### Espiral
 
-### Modelo em V
+#### Caracteristicas
+
+* Tentativa de união do modelo em cascata com o modelo em protótipos
+* Possui 4 etapas:
+  * Planejamento - levantamento de requisitos;
+  * Análise de riscos - projeto com a análise da viabilidade do sistema;
+  * Engenharia - implementação;
+  * Avaliação do usuário - validação por parte do usuário
+
+#### Pontos negativos
+
+* Senão bem pensado, pode se tornar complexo para algumas equipes
+* Altamente dependente de tecnologia
 
 ### Iterativo e incremental
+
+#### Caracteristicas
+
+* Desenvolvimento realizado em partes
+* Maleável e manutenível
+* Rápida entrega em partes
+* Ao finalizar um ciclo, recomeça-se ele
+
+![](http://www.adonai.eti.br/wordpress/wp-content/uploads/2014/01/IncrementalEvolutivo.jpg)
 
 ---
 
