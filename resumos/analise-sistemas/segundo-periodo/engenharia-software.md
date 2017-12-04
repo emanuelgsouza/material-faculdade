@@ -22,6 +22,46 @@ O que se entende como disciplinas de ES são as atividades aplicadas durante o p
 
 ### Gerencia de projetos
 
+Todo projeto precisa de ***planejamento***. Sendo assim, essa disciplina é fundamental por propor esse planejamento ao desenvolvimento do software. Mas não somente o planejamento é importante, mas também o ***controle de execução do mesmo***.
+
+### Levantamento de requisitos
+
+É nesta fase que se ***levanta os requisitos funcionais e não-funcionais***. Os requisitos são as funcionalidades que o sistema precisa entregar. Sendo assim, é nesta disciplina que se estuda e define quais as funcionalidades serão contempladas no software.
+
+É possível, para tanto, se utilizar de diferente tecnicas para o levantamento de requisitos: *brainstorming*, *questionário* ou entrevistas
+
+### Análise
+
+É a disciplina responsável por detalhar cada requisito levantado no processo anterior. O objetivo é detalhar passo-a-passo como o sistema será desenvolvido. É nesta disciplina que se criar os diferentes documentos da análise de projetos, tais como o Modelo Entidade-Relacionamento, quando o assunto é o bancod de dados. Quando são projetos orientados a objeto, cria-se os diagramas da UML, entre outros.
+
+### Projeto
+
+Cria-se uma solução tecnológica para o sistema considerando suas diferentes funções, requisitos e restrições. Há também a criação de diferentes documentos.
+
+### Implementação
+
+Aqui é a parte do desenvolvimento propriamente dito. Escolhe-se o conjunto de linguagens e tecnologias necessárias a construção do projeto.
+
+### Teste
+
+Esta disciplina tem como função prover os diferentes conjuntos de ferramentas para a validação e verifição do software. Aqui são criados os documentos de testes e o sistema é validado sobre diferentes perspectivas: desde do nível de código até a nível de interação do usuário.
+
+### Implantação
+
+Segundo a Unidade de Aprendizagem 3 da matéria:
+
+> É a disciplina que finaliza o desenvolvimento e disponibiliza para uso no usuário. Os procedimentos são aprovados pelos stakeholders, treinamento é desenvolvido com os usuários do negócio e carga dos dados é efetivada.
+
+### Manutenção
+
+Disciplina que cuida da manutenção do software, bem como das diferentes tecnologias e metodologias utilizadas para isso.
+
+### Qualidade
+
+Segundo a Unidade de Aprendizagem 3 da matéria:
+
+> Determina características necessárias para satisfazer a necessidade dos usuários do negócio.
+
 ---
 
 ## Ciclos de vida de um Software
