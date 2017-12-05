@@ -134,13 +134,76 @@ Independentemente do ciclo escolhido, o processo será o mesmo:
 
 ![](http://www.adonai.eti.br/wordpress/wp-content/uploads/2014/01/IncrementalEvolutivo.jpg)
 
+### Modelo Evolutivo
+
+#### Caracteristicas
+
+* Parte do princípio que não é possível ter todos os requisitos num primeiro momento
+* A partir do que o cliente colocar, é desenvolvido o sistema e entregue uma versão operacional
+* O cliente da o feedback que é necessário para mais requisitos e assim volta ao início do ciclo
+* O software já atende a requisitos do cliente mais cedo
+* Não há preocupação na construção de documentos
+* Há a necessidade de um forte gerenciamento neste modelo
+* Há uma intensa participação do cliente
+
+### RAD: Rapid Application Development
+
+#### Caracteristicas
+
+* Ciclos curtos de desenvolvimento, de 60 a 90 dias
+* Paralelismo nas atividades
+* Múltiplas equipes trabalhando no sistema
+* Módulos de desenvolvimento independentes
+* Prototipagem rápida e bastante interação com o cliente
+* Padronização de telas e UI devido ao forte uso de frameworks componentizados
+
 ---
 
 ## Desenvolvimento ágil
 
 ### Scrum
 
-### XP
+A seguir, uma imagem que ilustra bem o fluxo do **Scrum**:
+
+![](https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2017-05/ScrumFrameworkTest.png)
+
+#### Conceitos
+
+* **Sprint**: ciclo iterativo de duração determinada. Ao final da sprint, o software é incrementado.
+
+* **Backlog**: é o conjunto de requisitos priorizados pelo *Product Owner*.
+
+* **Daily scrum**: é a reunião diária em que os integrantes da equipe dizem como está o andamento de suas tarefas
+
+* **Retrospectiva**: é a reunião que tem como objetivo refletir sobre a Sprint passada.
+
+* **Estória**: é o requisito documentado.
+
+#### Conceitos
+
+* **Product Owner**: é o proprietário do produto. É aquele que está mais próximo do cliente e de quem está interessado com o produto.
+
+* **Scrum Master**: líder da equipe. É o que possui contato direto com o *Product Owner*.
+
+* **A Equipe de Desenvolvimento**: é a equipe em si.
+
+### XP eXtrem Programming
+
+- **stand up meeting**: reuniões diárias em que os integrantes da equipe falam sobre o que fizerem / irão fazer. Tem duração, em média, de 30 minutos.
+
+- **iterações ou releases**: a cada duas ou quatro semanas, o software irá ser incrementado de acordo com o desenvolvimento da equipe.
+
+- **programação em par (pair programming)**: consiste na prática de dois programadores estarem trabalhando na mesma máquina na mesma tarefa. Há três motivos para isso: melhor aprendizado, concentração e qualidade.
+
+- **desenvolvimento guiado a testes (TDD)**: todo o código e desenvolvimento, do início ao fim, visa ser testado continuamente. Por isso a presença constante adoção de automação de testes nesta metodologia.
+
+- a adoção de **releases curtos** é outra característica. Isso possibilita que o sistema seja incrementado de maneira mais simples e objetiva, possibilitando um melhor trabalho.
+
+- **código coletivo** juntamente com **refactoring** ajuda a manter o código mais robusto e manutenivel, pois, quanto mais pessoas olharem o código, maior a possibilidade de achar bugs e assim tornar o código melhor.
+
+### É possível trabalhar com o Scrum e XP juntos?
+
+Como foi possível ver, é possível trabalhar com os dois conjuntamente, tendo em vista que o foco do XP são boas práticas de programação, enquanto o Scrum se preocupa mais com a organização da equipe
 
 ---
 
