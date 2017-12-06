@@ -209,17 +209,89 @@ Como foi possível ver, é possível trabalhar com os dois conjuntamente, tendo 
 
 ## Ciclo de vida de um projeto
 
+As informações a seguir foram extraídas do conteúdo programático da Unigranrio.
+
+> Estabelecimento de uma sequencia de fases com o objetivo de realizar algo e garantir um bom gerenciamento.
+
+### O que é o PMBOK
+
+Segundo o PMBOK, ciclo de vida:
+
+> Divide o desenvolvimento em fases que conectam o início de um projeto ao seu final, descrevendo trabalho técnico que deve ser realizado, as entregas que devem ser geradas em cada fase, o recurso envolvido e como controlar e aprovar cada fase.
+
+O PMBOK define cinco grupos (fases) de processos:
+
++ **Iniciação**:
+  + autoriza um projeto e o documenta
+  + identifica as partes interessadas
+
++ **Planejamento**:
+  + coleta requisitos
+  + define o escopo do projeto
+  + cria o EAP (abordado mais a frente)
+  + estima custos entre outras coisas
+  + define os padrões de qualidade
+
++ **Execução**:
+  + materialização do que foi planejado
+
++ **Controle**:
+  + monitora e controla a execução do projeto
+  + realização do controle de qualidade
+
++ **Encerramento**:
+  + lições aprendidas
+  + projeto concluída
+
 ---
 
 ## EAP - Estrutura Analítica do Projeto
+
+Segundo o material da faculdade:
+
+> É uma decomposição hierárquica orientada à entrega do trabalho a ser executado pela equipe do projeto, para atingir os objetivos do projeto e criar as entregas necessárias.
+
+A EAP organiza o projeto como um todo, divindindo o mesmo em menores partes, mais gerenciáveis, conhecidas como ***pacotes de trabalho***.
+
+### Pacote de trabalho
+
+É a menor parte gerenciável de um projeto. É o nível mais baixo do EAP, no qual é possível definir custos e prazos de maneira confiável.
 
 ---
 
 ## Controle de Projetos
 
----
+> O controle de projetos é um processo necessário para garantir que os objetivos do projeto sejam alcançados através do monitoramento do progresso, e também visa identificar os desvios que devem ser tratados pela equipe.
 
-## MS Projet
+Sendo assim, ele contem 3 fases:
+
++ **Monitoramento do projeto**
++ **Avaliação do desempenho do projeto**
++ **Ajustar e Intervir no projeto para fazer as mudanças que o trarão de volta ao planejado**
+
+### Cronograma
+
+Para tanto, é necessário ferramentas que auxiliam a essa tarefa, assim surgem os **cronogramas**
+
+#### Cronograma de marcos
+
++ Mostra somente o início e fim das tarefas definidas como marcos
+
+#### Cronograma detalhado
+
++ Representa todos os marcos e atividades do projeto
+
+#### Cronograma sumarizado
+
++ Exibe apenas as iformações da atividade e de sua periodicidade
+
+### Gráficos
+
+#### Gráfico de Gantt
+
+Permite a visualização do progresso do projeto. O objetivo é deixar a informação o mais transparente possível
+
+![Exemplo de gráfico](https://d2myx53yhj7u4b.cloudfront.net/sites/default/files/2.PNG)
 
 ---
 
