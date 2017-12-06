@@ -3,10 +3,10 @@
 * [Introdução](./README.md)
 
 * 2° Período em Sistemas de Informação
-  * [Linguagem C](./segundo-periodo-si/linguagem-c.md)
-  * [Comunicação de Dados](./segundo-periodo-si/comunicacao-dados.md)
-  * [Modelagem de Dados](./segundo-periodo-si/modelagem-dados.md)
+  * [Linguagem C](./sistemas-informacao/segundo-periodo/linguagem-c.md)
+  * [Comunicação de Dados](./sistemas-informacao/segundo-periodo/comunicacao-dados.md)
+  * [Modelagem de Dados](./sistemas-informacao/segundo-periodo/modelagem-dados.md)
 
 * 2° Período em Análise de Sistemas
-  + [Analise e Projeto Orientados a Objeto](./segundo-periodo/projetos-uml.md)
-  + [Modelo Relacional de Banco de Dados](./segundo-periodo/modelagem-relacional-dados.md)
+  + [Analise e Projeto Orientados a Objeto](./analise-sistemas/segundo-periodo/projetos-uml.md)
+  + [Engenharia de Software](./analise-sistemas/segundo-periodo/engenharia-software.md)
