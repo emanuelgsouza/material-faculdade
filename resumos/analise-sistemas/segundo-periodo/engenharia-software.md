@@ -297,14 +297,64 @@ Permite a visualização do progresso do projeto. O objetivo é deixar a informa
 
 ## Teoria de testes
 
+> É a validação de requisitos propostos para o sistema. Validar aqui é utilizar o software exaustivamente, de maneira sistêmica buscando erros. O objetivo aqui é validar o software para que este vá para produção.
+
 ### Porquê testar?
+
+Testar é importante porque possibilita a visualização de erros antes que o software vá para a produção. Um outro argumento a favor de testar, que veremos mais a frente, diz respeito ao fato de que testando, se melhora a qualidade do software, pois se garante que o mesmo irá possuir **confiabilidade**, **segurança** e **previsibilidade**.
+
+### Técnicas de teste de software
+
+#### Teste estrutural (caixa branca)
+
+Visa testar o software pelo seu código, vendo se o mesmo possui a estrutura e coesão pretendidas. **É o teste a nível de componente**. Com esse teste é possível verificar se todas as estruturas possíveis foram percorridas e se o resultado foi o esperado depois disso.
+
+#### Teste funcional (caixa preta)
+
+Visa testar as funcionalidades do software visando saber se todas elas estão sendo atendidas. Ela é conhecida assim por não se importar em como o software foi construído, somente se suas funcionalidades foram atendidas.
 
 ### Tipos de testes
 
+Há vários tipos de testes em que o objetivo é testar o software desde do nível de código (mais baixo nivel) até o nível do usuário (mais alto nível).
+
++ **Funcionalidade**: busca erros a nível de funcionalidade
++ **Interface**: verifica a usabilidade do software
++ **Desempenho**: verifica se o software atende as espectativas quando o comportamento do ambiente é esperado. Ex: testar se um server http responde com um bom desempenho quando recebe uma quantidade esperada de requisições.
++ **Carga (stress)**: visa testar o software com uma carga anormal de pressões do ambiente. Ex: testar se um server http responde com um bom desempenho quando recebe uma quantidade altamente anormal de requisições.
++ **Sensibilidade**: verifica se o sistema responde bem quando colocado em condições de instabilidade.
++ **Automático (automatizado)**: é testar de maneira automático e contínua o software.
++ **Regressão**: visa retestar partes do software que foram modificadas buscando erros que possam ter surgido.
++ **Alfa e beta**: os testes alfa acontecem quando o software é testado pelo desenvolvedor no ambiente do usuário. Já o teste beta é o inverso, quando o software é testado pelo desenvolvedor no ambiente do usuário.
++ **Aceitação**: teste realizado pelo usuário para validação dos requisitos.
++ **Segurança**: teste realizado para verificar a fragilidade do sistema quanto a invasões.
+
 ### Documento de plano de teste
+
+Este documento visa fornecer um plano de como o software será testado e validado. Ele e fundamental por documentar o processo de teste como um todo. Tem-se um padrão internacional para criação de tais documentos que é a ISO IEEE-829.
 
 ---
 
 ## Qualidade de Software
 
-### CMMI
+> A qualidade de software é uma área de conhecimento da engenharia de software que tem o objetivo de garantir a qualidade do produto através da definição e normatização de processos de desenvolvimento.
+
+Segundo Sommerville, há perguntas que norteiam a qualidade de software
+
++ Durante o processo de desenvolvimento os padrões de programação e documentação foram seguidos?
++ O software foi devidamente testado?
++ O software é suficientemente confiável para ser colocado em uso?
++ O desempenho do software é aceitável para uso normal?
++ O software é bem estruturado e compreensível?
+
+### O CMMI e o modelo em estágios
+
+CMMI é uma evolução do CMM e procura estabelecer um modelo único para o processo de melhoria corporativo, integrando diferentes modelos e disciplinas.
+Então o CMMI se aplica a qualidade de software pois fornece às organizações uma direção sobre como ganhar controle de seu processo de desenvolvimento de software e como evoluir para uma cultura de excelência na gestão de software.
+
+#### Os estágios do CMMI
+
++ Fase 1 - **Inicial (Ad-hoc)**: O nível 1 não possui áreas de processo.
++ Fase 2 - **Gerenciado**: processos já implementados.
++ Fase 3 - **Definido**: padronização de projetos.
++ Fase 4 - **Quantitativamente Gerenciado**: Coleta de dados.
++ Fase 5 - **Otimização**: Criatividade e feedback são usados para otimizar os processos.
