@@ -1,0 +1,631 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Engenharia de Software · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="projetos-uml.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introdução
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    2° Período em Sistemas de Informação
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../sistemas-informacao/segundo-periodo/linguagem-c.html">
+            
+                <a href="../../sistemas-informacao/segundo-periodo/linguagem-c.html">
+            
+                    
+                    Linguagem C
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../sistemas-informacao/segundo-periodo/comunicacao-dados.html">
+            
+                <a href="../../sistemas-informacao/segundo-periodo/comunicacao-dados.html">
+            
+                    
+                    Comunicação de Dados
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../sistemas-informacao/segundo-periodo/modelagem-dados.html">
+            
+                <a href="../../sistemas-informacao/segundo-periodo/modelagem-dados.html">
+            
+                    
+                    Modelagem de Dados
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    2° Período em Análise de Sistemas
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="projetos-uml.html">
+            
+                <a href="projetos-uml.html">
+            
+                    
+                    Analise e Projeto Orientados a Objeto
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.2" data-path="engenharia-software.html">
+            
+                <a href="engenharia-software.html">
+            
+                    
+                    Engenharia de Software
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Engenharia de Software</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="metodos-e-tecnicas-de-engenharia-de-software">Metodos e Tecnicas de Engenharia de Software</h1>
+<p>Esta mat&#xE9;ria teve como objetivo mostrar os conceitos por tr&#xE1;s da Engenharia de Software. A seguir, o que foi apresentado na mat&#xE9;ria</p>
+<h2 id="o-que-&#xE9;-engenharia-de-software">O que &#xE9; Engenharia de Software?</h2>
+<p>Segundo o material da Unigranrio, Engenharia de Software &#xE9;:</p>
+<blockquote>
+<p>A engenharia de software &#xE9; o conjunto de t&#xE9;cnicas, m&#xE9;todos e ferramentas para constru&#xE7;&#xE3;o de sistemas e tem como objetivo ordenar o desenvolvimento e obter qualidade e satisfa&#xE7;&#xE3;o dos clientes.</p>
+</blockquote>
+<p>Para maior enriquecimento, trago a defini&#xE7;&#xE3;o de Fritz Bauer, encontrada no site <a href="https://www.devmedia.com.br/principios-da-engenharia-de-software/29630" target="_blank">DevMedia</a>:</p>
+<blockquote>
+<p>Engenharia de Software &#xE9; o estabelecimento e o emprego de s&#xF3;lidos princ&#xED;pios de engenharia de modo a obter software de maneira econ&#xF4;mica, que seja confi&#xE1;vel e funcione de forma eficiente em m&#xE1;quinas reais</p>
+</blockquote>
+<hr>
+<h2 id="processos-de-software-e-disciplinas-da-engenharia-de-software">Processos de Software e Disciplinas da Engenharia de Software</h2>
+<p>Processos de software s&#xE3;o as diversas fases para se construir e manter um software. Ter consciencia de um processo &#xE9; importante para se manter um padr&#xE3;o que contribui para a qualidade de um software.</p>
+<p>O que se entende como disciplinas de ES s&#xE3;o as atividades aplicadas durante o processo de software que contribui para a constru&#xE7;&#xE3;o e manuten&#xE7;&#xE3;o do mesmo. S&#xE3;o elas:</p>
+<h3 id="gerencia-de-projetos">Gerencia de projetos</h3>
+<p>Todo projeto precisa de <strong><em>planejamento</em></strong>. Sendo assim, essa disciplina &#xE9; fundamental por propor esse planejamento ao desenvolvimento do software. Mas n&#xE3;o somente o planejamento &#xE9; importante, mas tamb&#xE9;m o <strong><em>controle de execu&#xE7;&#xE3;o do mesmo</em></strong>.</p>
+<h3 id="levantamento-de-requisitos">Levantamento de requisitos</h3>
+<p>&#xC9; nesta fase que se <strong><em>levanta os requisitos funcionais e n&#xE3;o-funcionais</em></strong>. Os requisitos s&#xE3;o as funcionalidades que o sistema precisa entregar. Sendo assim, &#xE9; nesta disciplina que se estuda e define quais as funcionalidades ser&#xE3;o contempladas no software.</p>
+<p>&#xC9; poss&#xED;vel, para tanto, se utilizar de diferente tecnicas para o levantamento de requisitos: <em>brainstorming</em>, <em>question&#xE1;rio</em> ou entrevistas</p>
+<h3 id="an&#xE1;lise">An&#xE1;lise</h3>
+<p>&#xC9; a disciplina respons&#xE1;vel por detalhar cada requisito levantado no processo anterior. O objetivo &#xE9; detalhar passo-a-passo como o sistema ser&#xE1; desenvolvido. &#xC9; nesta disciplina que se criar os diferentes documentos da an&#xE1;lise de projetos, tais como o Modelo Entidade-Relacionamento, quando o assunto &#xE9; o bancod de dados. Quando s&#xE3;o projetos orientados a objeto, cria-se os diagramas da UML, entre outros.</p>
+<h3 id="projeto">Projeto</h3>
+<p>Cria-se uma solu&#xE7;&#xE3;o tecnol&#xF3;gica para o sistema considerando suas diferentes fun&#xE7;&#xF5;es, requisitos e restri&#xE7;&#xF5;es. H&#xE1; tamb&#xE9;m a cria&#xE7;&#xE3;o de diferentes documentos.</p>
+<h3 id="implementa&#xE7;&#xE3;o">Implementa&#xE7;&#xE3;o</h3>
+<p>Aqui &#xE9; a parte do desenvolvimento propriamente dito. Escolhe-se o conjunto de linguagens e tecnologias necess&#xE1;rias a constru&#xE7;&#xE3;o do projeto.</p>
+<h3 id="teste">Teste</h3>
+<p>Esta disciplina tem como fun&#xE7;&#xE3;o prover os diferentes conjuntos de ferramentas para a valida&#xE7;&#xE3;o e verifi&#xE7;&#xE3;o do software. Aqui s&#xE3;o criados os documentos de testes e o sistema &#xE9; validado sobre diferentes perspectivas: desde do n&#xED;vel de c&#xF3;digo at&#xE9; a n&#xED;vel de intera&#xE7;&#xE3;o do usu&#xE1;rio.</p>
+<h3 id="implanta&#xE7;&#xE3;o">Implanta&#xE7;&#xE3;o</h3>
+<p>Segundo a Unidade de Aprendizagem 3 da mat&#xE9;ria:</p>
+<blockquote>
+<p>&#xC9; a disciplina que finaliza o desenvolvimento e disponibiliza para uso no usu&#xE1;rio. Os procedimentos s&#xE3;o aprovados pelos stakeholders, treinamento &#xE9; desenvolvido com os usu&#xE1;rios do neg&#xF3;cio e carga dos dados &#xE9; efetivada.</p>
+</blockquote>
+<h3 id="manuten&#xE7;&#xE3;o">Manuten&#xE7;&#xE3;o</h3>
+<p>Disciplina que cuida da manuten&#xE7;&#xE3;o do software, bem como das diferentes tecnologias e metodologias utilizadas para isso.</p>
+<h3 id="qualidade">Qualidade</h3>
+<p>Segundo a Unidade de Aprendizagem 3 da mat&#xE9;ria:</p>
+<blockquote>
+<p>Determina caracter&#xED;sticas necess&#xE1;rias para satisfazer a necessidade dos usu&#xE1;rios do neg&#xF3;cio.</p>
+</blockquote>
+<hr>
+<h2 id="ciclos-de-vida-de-um-software">Ciclos de vida de um Software</h2>
+<p>Ciclo de vida diz respeito as etapas de como o software poder&#xE1; ser contru&#xED;do e em quais momentos s&#xE3;o feitos os documentos resultantes dessas etapas.</p>
+<p>Independentemente do ciclo escolhido, o processo ser&#xE1; o mesmo:</p>
+<ul>
+<li>Conhecimento do problema</li>
+<li>Representa&#xE7;&#xE3;o conceitual da solu&#xE7;&#xE3;o</li>
+<li>E como a mesma ser&#xE1; implantada</li>
+</ul>
+<h3 id="cascata">Cascata</h3>
+<h4 id="caracteristicas">Caracteristicas</h4>
+<ul>
+<li>As etapas s&#xE3;o feitas seguidamente</li>
+<li>Cada t&#xE9;rmino de etapa serve de entrada para outra etapa</li>
+<li>&#xC9; gerado um documento a cada etapa</li>
+</ul>
+<h4 id="pontos-positivos">Pontos positivos</h4>
+<ul>
+<li>Simples de implementar</li>
+</ul>
+<h4 id="pontos-negativos">Pontos negativos</h4>
+<ul>
+<li>Tem-se dificuldade com mudan&#xE7;as de requisitos</li>
+<li>Demora-se para entregar algo utiliz&#xE1;vel para o usu&#xE1;rio</li>
+<li>Processo burocr&#xE1;tico</li>
+</ul>
+<p><img src="https://engenhariasoftware.files.wordpress.com/2013/01/cascata.png" alt=""></p>
+<h3 id="prototipagem">Prototipagem</h3>
+<h4 id="caracteristicas">Caracteristicas</h4>
+<ul>
+<li>Desenvolvimento r&#xE1;pido e portanto, r&#xE1;pida entrega</li>
+</ul>
+<h4 id="pontos-positivos">Pontos positivos</h4>
+<ul>
+<li>Intensa participa&#xE7;&#xE3;o do usu&#xE1;rio</li>
+<li>Facilidade em modificar a estrutura do software</li>
+</ul>
+<p><img src="http://api.ning.com/files/aNZ9EZ3f4*xUo9zpIgot1pGWp0CNK*AJfry9rkERSGj7cPA65x8ck2bmeCnzghDCC0zLuJJQN4k3Ad0tv7BJwwJ956qbgXwW/proto.png" alt=""></p>
+<h3 id="espiral">Espiral</h3>
+<h4 id="caracteristicas">Caracteristicas</h4>
+<ul>
+<li>Tentativa de uni&#xE3;o do modelo em cascata com o modelo em prot&#xF3;tipos</li>
+<li>Possui 4 etapas:<ul>
+<li>Planejamento - levantamento de requisitos;</li>
+<li>An&#xE1;lise de riscos - projeto com a an&#xE1;lise da viabilidade do sistema;</li>
+<li>Engenharia - implementa&#xE7;&#xE3;o;</li>
+<li>Avalia&#xE7;&#xE3;o do usu&#xE1;rio - valida&#xE7;&#xE3;o por parte do usu&#xE1;rio</li>
+</ul>
+</li>
+</ul>
+<h4 id="pontos-negativos">Pontos negativos</h4>
+<ul>
+<li>Sen&#xE3;o bem pensado, pode se tornar complexo para algumas equipes</li>
+<li>Altamente dependente de tecnologia</li>
+</ul>
+<h3 id="iterativo-e-incremental">Iterativo e incremental</h3>
+<h4 id="caracteristicas">Caracteristicas</h4>
+<ul>
+<li>Desenvolvimento realizado em partes</li>
+<li>Male&#xE1;vel e manuten&#xED;vel</li>
+<li>R&#xE1;pida entrega em partes</li>
+<li>Ao finalizar um ciclo, recome&#xE7;a-se ele</li>
+</ul>
+<p><img src="http://www.adonai.eti.br/wordpress/wp-content/uploads/2014/01/IncrementalEvolutivo.jpg" alt=""></p>
+<h3 id="modelo-evolutivo">Modelo Evolutivo</h3>
+<h4 id="caracteristicas">Caracteristicas</h4>
+<ul>
+<li>Parte do princ&#xED;pio que n&#xE3;o &#xE9; poss&#xED;vel ter todos os requisitos num primeiro momento</li>
+<li>A partir do que o cliente colocar, &#xE9; desenvolvido o sistema e entregue uma vers&#xE3;o operacional</li>
+<li>O cliente da o feedback que &#xE9; necess&#xE1;rio para mais requisitos e assim volta ao in&#xED;cio do ciclo</li>
+<li>O software j&#xE1; atende a requisitos do cliente mais cedo</li>
+<li>N&#xE3;o h&#xE1; preocupa&#xE7;&#xE3;o na constru&#xE7;&#xE3;o de documentos</li>
+<li>H&#xE1; a necessidade de um forte gerenciamento neste modelo</li>
+<li>H&#xE1; uma intensa participa&#xE7;&#xE3;o do cliente</li>
+</ul>
+<h3 id="rad-rapid-application-development">RAD: Rapid Application Development</h3>
+<h4 id="caracteristicas">Caracteristicas</h4>
+<ul>
+<li>Ciclos curtos de desenvolvimento, de 60 a 90 dias</li>
+<li>Paralelismo nas atividades</li>
+<li>M&#xFA;ltiplas equipes trabalhando no sistema</li>
+<li>M&#xF3;dulos de desenvolvimento independentes</li>
+<li>Prototipagem r&#xE1;pida e bastante intera&#xE7;&#xE3;o com o cliente</li>
+<li>Padroniza&#xE7;&#xE3;o de telas e UI devido ao forte uso de frameworks componentizados</li>
+</ul>
+<hr>
+<h2 id="desenvolvimento-&#xE1;gil">Desenvolvimento &#xE1;gil</h2>
+<h3 id="scrum">Scrum</h3>
+<p>A seguir, uma imagem que ilustra bem o fluxo do <strong>Scrum</strong>:</p>
+<p><img src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2017-05/ScrumFrameworkTest.png" alt=""></p>
+<h4 id="conceitos">Conceitos</h4>
+<ul>
+<li><p><strong>Sprint</strong>: ciclo iterativo de dura&#xE7;&#xE3;o determinada. Ao final da sprint, o software &#xE9; incrementado.</p>
+</li>
+<li><p><strong>Backlog</strong>: &#xE9; o conjunto de requisitos priorizados pelo <em>Product Owner</em>.</p>
+</li>
+<li><p><strong>Daily scrum</strong>: &#xE9; a reuni&#xE3;o di&#xE1;ria em que os integrantes da equipe dizem como est&#xE1; o andamento de suas tarefas</p>
+</li>
+<li><p><strong>Retrospectiva</strong>: &#xE9; a reuni&#xE3;o que tem como objetivo refletir sobre a Sprint passada.</p>
+</li>
+<li><p><strong>Est&#xF3;ria</strong>: &#xE9; o requisito documentado.</p>
+</li>
+</ul>
+<h4 id="conceitos">Conceitos</h4>
+<ul>
+<li><p><strong>Product Owner</strong>: &#xE9; o propriet&#xE1;rio do produto. &#xC9; aquele que est&#xE1; mais pr&#xF3;ximo do cliente e de quem est&#xE1; interessado com o produto.</p>
+</li>
+<li><p><strong>Scrum Master</strong>: l&#xED;der da equipe. &#xC9; o que possui contato direto com o <em>Product Owner</em>.</p>
+</li>
+<li><p><strong>A Equipe de Desenvolvimento</strong>: &#xE9; a equipe em si.</p>
+</li>
+</ul>
+<h3 id="xp-extrem-programming">XP eXtrem Programming</h3>
+<ul>
+<li><p><strong>stand up meeting</strong>: reuni&#xF5;es di&#xE1;rias em que os integrantes da equipe falam sobre o que fizerem / ir&#xE3;o fazer. Tem dura&#xE7;&#xE3;o, em m&#xE9;dia, de 30 minutos.</p>
+</li>
+<li><p><strong>itera&#xE7;&#xF5;es ou releases</strong>: a cada duas ou quatro semanas, o software ir&#xE1; ser incrementado de acordo com o desenvolvimento da equipe.</p>
+</li>
+<li><p><strong>programa&#xE7;&#xE3;o em par (pair programming)</strong>: consiste na pr&#xE1;tica de dois programadores estarem trabalhando na mesma m&#xE1;quina na mesma tarefa. H&#xE1; tr&#xEA;s motivos para isso: melhor aprendizado, concentra&#xE7;&#xE3;o e qualidade.</p>
+</li>
+<li><p><strong>desenvolvimento guiado a testes (TDD)</strong>: todo o c&#xF3;digo e desenvolvimento, do in&#xED;cio ao fim, visa ser testado continuamente. Por isso a presen&#xE7;a constante ado&#xE7;&#xE3;o de automa&#xE7;&#xE3;o de testes nesta metodologia.</p>
+</li>
+<li><p>a ado&#xE7;&#xE3;o de <strong>releases curtos</strong> &#xE9; outra caracter&#xED;stica. Isso possibilita que o sistema seja incrementado de maneira mais simples e objetiva, possibilitando um melhor trabalho.</p>
+</li>
+<li><p><strong>c&#xF3;digo coletivo</strong> juntamente com <strong>refactoring</strong> ajuda a manter o c&#xF3;digo mais robusto e manutenivel, pois, quanto mais pessoas olharem o c&#xF3;digo, maior a possibilidade de achar bugs e assim tornar o c&#xF3;digo melhor.</p>
+</li>
+</ul>
+<h3 id="&#xE9;-poss&#xED;vel-trabalhar-com-o-scrum-e-xp-juntos">&#xC9; poss&#xED;vel trabalhar com o Scrum e XP juntos?</h3>
+<p>Como foi poss&#xED;vel ver, &#xE9; poss&#xED;vel trabalhar com os dois conjuntamente, tendo em vista que o foco do XP s&#xE3;o boas pr&#xE1;ticas de programa&#xE7;&#xE3;o, enquanto o Scrum se preocupa mais com a organiza&#xE7;&#xE3;o da equipe</p>
+<hr>
+<h2 id="ciclo-de-vida-de-um-projeto">Ciclo de vida de um projeto</h2>
+<p>As informa&#xE7;&#xF5;es a seguir foram extra&#xED;das do conte&#xFA;do program&#xE1;tico da Unigranrio.</p>
+<blockquote>
+<p>Estabelecimento de uma sequencia de fases com o objetivo de realizar algo e garantir um bom gerenciamento.</p>
+</blockquote>
+<h3 id="o-que-&#xE9;-o-pmbok">O que &#xE9; o PMBOK</h3>
+<p>Segundo o PMBOK, ciclo de vida:</p>
+<blockquote>
+<p>Divide o desenvolvimento em fases que conectam o in&#xED;cio de um projeto ao seu final, descrevendo trabalho t&#xE9;cnico que deve ser realizado, as entregas que devem ser geradas em cada fase, o recurso envolvido e como controlar e aprovar cada fase.</p>
+</blockquote>
+<p>O PMBOK define cinco grupos (fases) de processos:</p>
+<ul>
+<li><p><strong>Inicia&#xE7;&#xE3;o</strong>:</p>
+<ul>
+<li>autoriza um projeto e o documenta</li>
+<li>identifica as partes interessadas</li>
+</ul>
+</li>
+<li><p><strong>Planejamento</strong>:</p>
+<ul>
+<li>coleta requisitos</li>
+<li>define o escopo do projeto</li>
+<li>cria o EAP (abordado mais a frente)</li>
+<li>estima custos entre outras coisas</li>
+<li>define os padr&#xF5;es de qualidade</li>
+</ul>
+</li>
+<li><p><strong>Execu&#xE7;&#xE3;o</strong>:</p>
+<ul>
+<li>materializa&#xE7;&#xE3;o do que foi planejado</li>
+</ul>
+</li>
+<li><p><strong>Controle</strong>:</p>
+<ul>
+<li>monitora e controla a execu&#xE7;&#xE3;o do projeto</li>
+<li>realiza&#xE7;&#xE3;o do controle de qualidade</li>
+</ul>
+</li>
+<li><p><strong>Encerramento</strong>:</p>
+<ul>
+<li>li&#xE7;&#xF5;es aprendidas</li>
+<li>projeto conclu&#xED;da</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="eap---estrutura-anal&#xED;tica-do-projeto">EAP - Estrutura Anal&#xED;tica do Projeto</h2>
+<p>Segundo o material da faculdade:</p>
+<blockquote>
+<p>&#xC9; uma decomposi&#xE7;&#xE3;o hier&#xE1;rquica orientada &#xE0; entrega do trabalho a ser executado pela equipe do projeto, para atingir os objetivos do projeto e criar as entregas necess&#xE1;rias.</p>
+</blockquote>
+<p>A EAP organiza o projeto como um todo, divindindo o mesmo em menores partes, mais gerenci&#xE1;veis, conhecidas como <strong><em>pacotes de trabalho</em></strong>.</p>
+<h3 id="pacote-de-trabalho">Pacote de trabalho</h3>
+<p>&#xC9; a menor parte gerenci&#xE1;vel de um projeto. &#xC9; o n&#xED;vel mais baixo do EAP, no qual &#xE9; poss&#xED;vel definir custos e prazos de maneira confi&#xE1;vel.</p>
+<hr>
+<h2 id="controle-de-projetos">Controle de Projetos</h2>
+<blockquote>
+<p>O controle de projetos &#xE9; um processo necess&#xE1;rio para garantir que os objetivos do projeto sejam alcan&#xE7;ados atrav&#xE9;s do monitoramento do progresso, e tamb&#xE9;m visa identificar os desvios que devem ser tratados pela equipe.</p>
+</blockquote>
+<p>Sendo assim, ele contem 3 fases:</p>
+<ul>
+<li><strong>Monitoramento do projeto</strong></li>
+<li><strong>Avalia&#xE7;&#xE3;o do desempenho do projeto</strong></li>
+<li><strong>Ajustar e Intervir no projeto para fazer as mudan&#xE7;as que o trar&#xE3;o de volta ao planejado</strong></li>
+</ul>
+<h3 id="cronograma">Cronograma</h3>
+<p>Para tanto, &#xE9; necess&#xE1;rio ferramentas que auxiliam a essa tarefa, assim surgem os <strong>cronogramas</strong></p>
+<h4 id="cronograma-de-marcos">Cronograma de marcos</h4>
+<ul>
+<li>Mostra somente o in&#xED;cio e fim das tarefas definidas como marcos</li>
+</ul>
+<h4 id="cronograma-detalhado">Cronograma detalhado</h4>
+<ul>
+<li>Representa todos os marcos e atividades do projeto</li>
+</ul>
+<h4 id="cronograma-sumarizado">Cronograma sumarizado</h4>
+<ul>
+<li>Exibe apenas as iforma&#xE7;&#xF5;es da atividade e de sua periodicidade</li>
+</ul>
+<h3 id="gr&#xE1;ficos">Gr&#xE1;ficos</h3>
+<h4 id="gr&#xE1;fico-de-gantt">Gr&#xE1;fico de Gantt</h4>
+<p>Permite a visualiza&#xE7;&#xE3;o do progresso do projeto. O objetivo &#xE9; deixar a informa&#xE7;&#xE3;o o mais transparente poss&#xED;vel</p>
+<p><img src="https://d2myx53yhj7u4b.cloudfront.net/sites/default/files/2.PNG" alt="Exemplo de gr&#xE1;fico"></p>
+<hr>
+<h2 id="teoria-de-testes">Teoria de testes</h2>
+<blockquote>
+<p>&#xC9; a valida&#xE7;&#xE3;o de requisitos propostos para o sistema. Validar aqui &#xE9; utilizar o software exaustivamente, de maneira sist&#xEA;mica buscando erros. O objetivo aqui &#xE9; validar o software para que este v&#xE1; para produ&#xE7;&#xE3;o.</p>
+</blockquote>
+<h3 id="porqu&#xEA;-testar">Porqu&#xEA; testar?</h3>
+<p>Testar &#xE9; importante porque possibilita a visualiza&#xE7;&#xE3;o de erros antes que o software v&#xE1; para a produ&#xE7;&#xE3;o. Um outro argumento a favor de testar, que veremos mais a frente, diz respeito ao fato de que testando, se melhora a qualidade do software, pois se garante que o mesmo ir&#xE1; possuir <strong>confiabilidade</strong>, <strong>seguran&#xE7;a</strong> e <strong>previsibilidade</strong>.</p>
+<h3 id="t&#xE9;cnicas-de-teste-de-software">T&#xE9;cnicas de teste de software</h3>
+<h4 id="teste-estrutural-caixa-branca">Teste estrutural (caixa branca)</h4>
+<p>Visa testar o software pelo seu c&#xF3;digo, vendo se o mesmo possui a estrutura e coes&#xE3;o pretendidas. <strong>&#xC9; o teste a n&#xED;vel de componente</strong>. Com esse teste &#xE9; poss&#xED;vel verificar se todas as estruturas poss&#xED;veis foram percorridas e se o resultado foi o esperado depois disso.</p>
+<h4 id="teste-funcional-caixa-preta">Teste funcional (caixa preta)</h4>
+<p>Visa testar as funcionalidades do software visando saber se todas elas est&#xE3;o sendo atendidas. Ela &#xE9; conhecida assim por n&#xE3;o se importar em como o software foi constru&#xED;do, somente se suas funcionalidades foram atendidas.</p>
+<h3 id="tipos-de-testes">Tipos de testes</h3>
+<p>H&#xE1; v&#xE1;rios tipos de testes em que o objetivo &#xE9; testar o software desde do n&#xED;vel de c&#xF3;digo (mais baixo nivel) at&#xE9; o n&#xED;vel do usu&#xE1;rio (mais alto n&#xED;vel).</p>
+<ul>
+<li><strong>Funcionalidade</strong>: busca erros a n&#xED;vel de funcionalidade</li>
+<li><strong>Interface</strong>: verifica a usabilidade do software</li>
+<li><strong>Desempenho</strong>: verifica se o software atende as espectativas quando o comportamento do ambiente &#xE9; esperado. Ex: testar se um server http responde com um bom desempenho quando recebe uma quantidade esperada de requisi&#xE7;&#xF5;es.</li>
+<li><strong>Carga (stress)</strong>: visa testar o software com uma carga anormal de press&#xF5;es do ambiente. Ex: testar se um server http responde com um bom desempenho quando recebe uma quantidade altamente anormal de requisi&#xE7;&#xF5;es.</li>
+<li><strong>Sensibilidade</strong>: verifica se o sistema responde bem quando colocado em condi&#xE7;&#xF5;es de instabilidade.</li>
+<li><strong>Autom&#xE1;tico (automatizado)</strong>: &#xE9; testar de maneira autom&#xE1;tico e cont&#xED;nua o software.</li>
+<li><strong>Regress&#xE3;o</strong>: visa retestar partes do software que foram modificadas buscando erros que possam ter surgido.</li>
+<li><strong>Alfa e beta</strong>: os testes alfa acontecem quando o software &#xE9; testado pelo desenvolvedor no ambiente do usu&#xE1;rio. J&#xE1; o teste beta &#xE9; o inverso, quando o software &#xE9; testado pelo desenvolvedor no ambiente do usu&#xE1;rio.</li>
+<li><strong>Aceita&#xE7;&#xE3;o</strong>: teste realizado pelo usu&#xE1;rio para valida&#xE7;&#xE3;o dos requisitos.</li>
+<li><strong>Seguran&#xE7;a</strong>: teste realizado para verificar a fragilidade do sistema quanto a invas&#xF5;es.</li>
+</ul>
+<h3 id="documento-de-plano-de-teste">Documento de plano de teste</h3>
+<p>Este documento visa fornecer um plano de como o software ser&#xE1; testado e validado. Ele e fundamental por documentar o processo de teste como um todo. Tem-se um padr&#xE3;o internacional para cria&#xE7;&#xE3;o de tais documentos que &#xE9; a ISO IEEE-829.</p>
+<hr>
+<h2 id="qualidade-de-software">Qualidade de Software</h2>
+<blockquote>
+<p>A qualidade de software &#xE9; uma &#xE1;rea de conhecimento da engenharia de software que tem o objetivo de garantir a qualidade do produto atrav&#xE9;s da defini&#xE7;&#xE3;o e normatiza&#xE7;&#xE3;o de processos de desenvolvimento.</p>
+</blockquote>
+<p>Segundo Sommerville, h&#xE1; perguntas que norteiam a qualidade de software</p>
+<ul>
+<li>Durante o processo de desenvolvimento os padr&#xF5;es de programa&#xE7;&#xE3;o e documenta&#xE7;&#xE3;o foram seguidos?</li>
+<li>O software foi devidamente testado?</li>
+<li>O software &#xE9; suficientemente confi&#xE1;vel para ser colocado em uso?</li>
+<li>O desempenho do software &#xE9; aceit&#xE1;vel para uso normal?</li>
+<li>O software &#xE9; bem estruturado e compreens&#xED;vel?</li>
+</ul>
+<h3 id="o-cmmi-e-o-modelo-em-est&#xE1;gios">O CMMI e o modelo em est&#xE1;gios</h3>
+<p>CMMI &#xE9; uma evolu&#xE7;&#xE3;o do CMM e procura estabelecer um modelo &#xFA;nico para o processo de melhoria corporativo, integrando diferentes modelos e disciplinas.
+Ent&#xE3;o o CMMI se aplica a qualidade de software pois fornece &#xE0;s organiza&#xE7;&#xF5;es uma dire&#xE7;&#xE3;o sobre como ganhar controle de seu processo de desenvolvimento de software e como evoluir para uma cultura de excel&#xEA;ncia na gest&#xE3;o de software.</p>
+<h4 id="os-est&#xE1;gios-do-cmmi">Os est&#xE1;gios do CMMI</h4>
+<ul>
+<li>Fase 1 - <strong>Inicial (Ad-hoc)</strong>: O n&#xED;vel 1 n&#xE3;o possui &#xE1;reas de processo.</li>
+<li>Fase 2 - <strong>Gerenciado</strong>: processos j&#xE1; implementados.</li>
+<li>Fase 3 - <strong>Definido</strong>: padroniza&#xE7;&#xE3;o de projetos.</li>
+<li>Fase 4 - <strong>Quantitativamente Gerenciado</strong>: Coleta de dados.</li>
+<li>Fase 5 - <strong>Otimiza&#xE7;&#xE3;o</strong>: Criatividade e feedback s&#xE3;o usados para otimizar os processos.</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="projetos-uml.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Analise e Projeto Orientados a Objeto">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Engenharia de Software","level":"1.3.2","depth":2,"previous":{"title":"Analise e Projeto Orientados a Objeto","level":"1.3.1","depth":2,"path":"analise-sistemas/segundo-periodo/projetos-uml.md","ref":"./analise-sistemas/segundo-periodo/projetos-uml.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"analise-sistemas/segundo-periodo/engenharia-software.md","mtime":"2017-12-06T23:59:36.977Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-07T00:00:23.093Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
