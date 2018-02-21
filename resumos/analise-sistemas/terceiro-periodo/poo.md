@@ -14,7 +14,7 @@ Princípios da Orientação a Objeto enumeradas por [Alan Kay](https://pt.wikipe
 ### Conceitos e mecanismos
 
 * Orientação a Objetos: paradigma de programação. Links:
-  * [Devmedia](https://www.devmedia.com.br/principais-conceitos-da-programacao-orientada-a-objetos/32285) e ;
+  * [Devmedia](https://www.devmedia.com.br/principais-conceitos-da-programacao-orientada-a-objetos/32285);
   * [Pilares da POO](https://www.devmedia.com.br/os-4-pilares-da-programacao-orientada-a-objetos/9264)
 
 * Conceitos estruturais: classe, objeto, atributo, encapsulamento e polimofirsmo.
