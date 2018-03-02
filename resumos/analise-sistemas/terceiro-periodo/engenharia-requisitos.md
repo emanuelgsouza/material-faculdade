@@ -2,6 +2,16 @@
 
 ## O que é um processo?
 
+É uma série de atividades inter-relacionadas com um objetivo em questão. **Todo processo começa e termina no cliente**. Um exemplo de processo é o atendimento em uma Petshop. Um outro exemplo de processo, é a criação de uma matrícula numa faculdade.
+
+## O que é Modelar um Negócio Orientado a Processos?
+
+É quando pensamos e buscamos entender um negócio como um conjunto de processos. Tal entendimento é eficaz, tendo em vista algumas questões colocadas no item (Porquê mapear processos é importante?)
+
+A imagem a seguir mostra o cíclo de uma modelagem de negócios orientada a processos
+
+http://blog.cigam.com.br/wp-content/uploads/2017/05/gestc3a3o-por-processos.png
+
 ## Organogramas versus Fluxogramas
 
 + **Organograma**: gráfico que mostra como está organizada a empresa.
