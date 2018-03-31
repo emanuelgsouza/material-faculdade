@@ -10,3 +10,6 @@
 * 2° Período em Análise de Sistemas
   + [Analise e Projeto Orientados a Objeto](./analise-sistemas/segundo-periodo/projetos-uml.md)
   + [Engenharia de Software](./analise-sistemas/segundo-periodo/engenharia-software.md)
+
+* 3° Período em Analise de Sistemas
+  + [Engenharia de Requisitos](./analise-sistemas/terceiro-periodo/engenharia-requisitos.md)
