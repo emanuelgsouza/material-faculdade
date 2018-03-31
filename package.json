@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "gitbook serve",
-    "deploy": "gitbook build . livro && git add . && git commit -m'deploy' && git push origin master"
+    "dev": "npx gitbook serve",
+    "deploy": "npx gitbook build . livro && git add . && git commit -m'deploy' && git push origin master"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/emanuelgsouza/material-faculdade/issues"
   },
-  "homepage": "https://github.com/emanuelgsouza/material-faculdade#readme"
+  "homepage": "https://github.com/emanuelgsouza/material-faculdade#readme",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
 }
