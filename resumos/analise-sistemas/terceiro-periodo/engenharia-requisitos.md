@@ -82,3 +82,13 @@ Exemplo de uma matriz preenchida:
 ![Matriz GUT](../images/engenharia-requisitos/matriz-gut.png)
 
 Para mais informações, acesse: https://blog.luz.vc/o-que-e/matriz-gut-gravidade-urgencia-e-tendencia/
+
+## Orquestração e Coreografia
+
+Segundo o Wikipedia, orquestração é a:
+
+> composição de processos de negócio onde existe a figura de um processo central (processo mestre) que controla e coordena os demais processos. Neste tipo de composição, cada processo participante não tem conhecimento de que faz parte de uma composição de processos, com exceção do processo mestre.
+
+Ainda segundo o Wikipedia, coreografia é:
+
+> composição de processos de negócio onde não existe a figura de um processo mestre que controla e coordena os demais processos. Neste tipo de composição, cada processo envolvido tem o conhecimento de que faz parte de uma composição de processos e que precisa interagir com outros processos de maneira ordenada para que a composição resultante tenha sucesso.
