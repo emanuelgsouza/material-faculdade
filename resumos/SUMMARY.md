@@ -13,3 +13,4 @@
 
 * 3° Período em Analise de Sistemas
   + [Engenharia de Requisitos](./analise-sistemas/terceiro-periodo/engenharia-requisitos.md)
+  + [Modelagem de Processos Organizacionais](./analise-sistemas/terceiro-periodo/modelagem-processos.md)
