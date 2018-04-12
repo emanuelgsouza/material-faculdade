@@ -45,3 +45,85 @@ Fontes:
 * http://www.unicamp.br/fea/ortega/temas530/melissa.htm
 * https://www.portaleducacao.com.br/conteudo/artigos/educacao/teoria-geral-dos-sistemas-e-os-sistemas-de-informacao/59309
 * http://casadaconsultoria.com.br/teoria-contingencial/
+
+### Teoria Científica da Administração
+
+Tem com principal autor, Frederick Winslow Taylor. Este entendia que havia um desperdício de recursos e que existia uma forma correta de uma organização maximizar sua produção. Para isso, propôs o que ficou conhecido como **ORT - Organização Racional do Trabalho**. Os princípios da ORT são:
+
+* Divisão clara entre quem comanda e quem executa (seleção científica do trabalhador)
+* Uma ênfase na tarefa
+* Padronização do trabalho e treinamento extensivo
+
+Para a Administração Científica, o homem é um ser preguiçoso, que, no desejo de não passar fome, trabalha para ganhar seu sustento.
+
+### Teoria Clássica e neoclássica
+
+A teoria clássica foca em:
+
+* Definição de **estrutura**
+* Definição de **papéis**
+
+Já a teoria neoclássica:
+
+* Foco nos **objetivos** e nas **metas**
+
+As principais características são:
+
+* Divisão do trabalho
+* Centralização das decisões
+* Pequena amplitude de controle
+
+#### Processo administrativo
+
+Veja como, no diagrama abaixo, a teoria neoclássica entende o papel do gestor:
+
+![Papeis do gestor](../images/modelagem-processos/papel-administrador.png)
+
+#### O que é organograma?
+
+É como ocorre a especialização do trabalho na organização. Um organograma mostra a organização em diferentes **setores administrativos**.
+
+#### Conceitos de linha e staff
+
+Linha é a hierarquia da empresa bem como você se encontra nela (a quem comanda e quem te comanda). Já a *staff* é a acessoria prestada por terceiros. Na *staff* não ocorre a subordinação.
+
+### Teoria das relações humanas
+
+Segundo essa escola, o ser humano é enxergado como um *homos socialis*, ou seja, um ser dotado de sentimentos e temores, que procura ser aceito na sociedade em que está e procura também ter poder decisório. Uma outra definição é a de que o a eficiência do trabalho está ligada ao contexto social e não somente suas necessidades primárias.
+
+### Teorias comportamentais e de liderança
+
+Segundo esses movimentos, a administração de uma organização deve propor a **gerência participativa** e a **melhoria do clima de trabalho**.
+
+#### Hierarquia das necessidades humanas de Maslow
+
+Segundo Maslow, o ser humanno busca no trabalho a oportunidade de satisfazer suas necessidades, desde as mais básicas até a satisfação pessoal. Veja abaixo as categorias:
+
+![Pirâmide de Maslow](../images/modelagem-processos/hierarquia-de-necessidades-de-maslow.jpg)
+
+#### Teoria X
+
+As pessoas são preguiçosas e indolentes, não querem trabalhar. Portanto, é necessário que a gestão tenha pulso firme e puna o trabalhador que não comprir com o acordado
+
+#### Teoria Y
+
+As pessoas gostam de trabalhar, e também veem no trabalho a possibilidade de crescimento pessoal. A tarefa da gestão é proporcionar esse ambiente de livre iniciativa do trabalhador.
+
+As duas teorias anteriores são de Douglas McGregor
+
+#### Teoria dos dois fatores
+
+Segundo Herzberg, o ser humano, ao trabalhar, possui duas atitudes:
+
+* Satisfazer sua necessidades básicas (**fatores higiênicos**)
+* Aperfeiçoamento de suas habilidades, seu espírito e seu potencial humano (**fatores motivacionais**)
+
+### O que é burocracia?
+
+A interação entre os indivíduos deve seguir regras claras e padrões impessoais. O objetivo é evitar a arbitrariedade e organizar a atividade humana de maneira estável e que cumpra os fins propostos. Segundo essa lógica, a atividade humana deve seguir rotinas e procedimentos bem alinhados. Veja abaixo um quadro que ilustra bem essa situação:
+
+![Estrutura Burocrática de Weber](../images/modelagem-processos/estrutura-burocratica-weber.png)
+
+Para um aprofundamento do conceito de burocracia, leia:
+
+* [A racionalização do Direito: uma discussão sobre uma prova inusitada, a carta psicografada](http://egov.ufsc.br/portal/conteudo/racionaliza%C3%A7%C3%A3o-do-direito-uma-discuss%C3%A3o-sobre-uma-prova-inusitada-carta-psicografada)
