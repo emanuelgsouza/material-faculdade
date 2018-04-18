@@ -127,3 +127,36 @@ A interação entre os indivíduos deve seguir regras claras e padrões impessoa
 Para um aprofundamento do conceito de burocracia, leia:
 
 * [A racionalização do Direito: uma discussão sobre uma prova inusitada, a carta psicografada](http://egov.ufsc.br/portal/conteudo/racionaliza%C3%A7%C3%A3o-do-direito-uma-discuss%C3%A3o-sobre-uma-prova-inusitada-carta-psicografada)
+
+## A produção como ferramenta estratégica
+
+### O que é estratégia?
+
+> A arte de alcançar resultados. Citando o conteúdo da faculdade, é um padrão geral para o alcance de objetivos.
+
+### Quais os níveis da estratégia?
+
+Existem três níveis primários de estratégia:
+
+* Corporativo
+* Comercial
+* Funcional
+
+A **estratégia corporativa** possui dus áreas de interesse:
+
+* Os negócios que a corporação irá participar
+* Aquisição de recursos
+
+Já a **estratégia comercial** possui duas tarefas:
+
+* Estabelecer os limites da empresa vinculando a parte corporativa com o comercial
+* Estabele a base da empresa para uma vantagem competitiva
+
+Por fim, **a estratégia funcional** deverá ser desenvolvida e seguida com o objetivo de sustentar a estratégia comercial
+
+
+## Quem afeta o estabelecimento de prioridades da produção
+
+* Consumidores
+* Concorrentes
+* Ciclo de vida do produto
