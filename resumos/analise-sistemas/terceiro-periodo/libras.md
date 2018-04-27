@@ -24,3 +24,38 @@ Segundo essa corrente, é passado a criança, o acesso as duas linguas: a se sin
 > A deficiência auditiva, trivialmente conhecida como surdez, consiste na perda parcial ou total da capacidade de ouvir, isto é, um indivíduo que apresente um problema auditivo. É considerado surdo todo o indivíduo cuja audição não é funcional no dia a dia, e considerado parcialmente surdo todo aquele cuja capacidade de ouvir, ainda que deficiente, é funcional com ou sem prótese auditiva.
 
  A surdez pode ser classificada em: leve, moderada e severa.
+
+## Libras como língua
+
+O que é denominado como palavra na nossa língua corrente, em Libras é chamado de sinal. Um sinal é formado pela combinação de uso das mãos, com um determinado formato feito em alguma parte do corpo. Essas articulações de mãos é chamado de `parâmetro`. São eles:
+
+* **Configuração de mão**: é a forma da mão presente no sinal. Em libras, temos 64 configurações de mãos possíveis.
+* **Ponto de articulação**: é o lugar do corpo em que a mão predominante é usada para fazer o sinal.
+* **Movimento**
+* **Direcionalidade**
+* **Expressão facial / corporal**
+
+## Tipos de Frases:
+
+### Afirmativa
+
+* Expressão facial neutra
+  * Nome e M-A-R-I-A
+
+### Forma Interrogativa
+
+* Sobrancelhas franzidas e um ligeiro movimento de cabeça para cima
+  * VOCÊ CASAD@?
+
+### Forma exclamativa
+
+* Sobrancelhas levantadas e um ligeiro movimento da cabeça, inclinando-se para cima e para baixo
+  * Carro Bonito
+
+### Forma negativa
+
+Em tres processos
+
+1. Acrescimento do NÃO a frase afirmativa
+2. Com a incorporação de um movimento contrário ou diferente ao do sinal negado
+3. Com aceno negativo da cabeça
