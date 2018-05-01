@@ -155,8 +155,37 @@ Já a **estratégia comercial** possui duas tarefas:
 Por fim, **a estratégia funcional** deverá ser desenvolvida e seguida com o objetivo de sustentar a estratégia comercial
 
 
-## Quem afeta o estabelecimento de prioridades da produção
+### Quem afeta o estabelecimento de prioridades da produção
 
 * Consumidores
 * Concorrentes
 * Ciclo de vida do produto
+
+## Layout de produção
+
+### O que é um layout de produção?
+
+> O layout de produção, também denominado arranjo físico, é uma representação gráfica do chão de fábrica. Mais do que uma planta, é uma técnica utilizada para definir a distribuição e disposição física dos componentes da área de produção. O objetivo é organizar o espaço físico do chão de fábrica localizando os equipamentos e postos de trabalho de forma a obter maior eficiência na produção.
+
+> fonte: http://www.sispro.com.br/blog/o-que-e-layout-de-producao/
+
+O que norteia a escolha de um layout de produção é o fluxo do processo de produção. Ou seja, a escolha de um layout se dá tendo em mente como será a produção do produto. Haverá vários produtos sendo feitos pelas máquinas? O produto se movimentará entre as máquinas/pessoas?
+
+### Quais os tipos de arranjo físico?
+
+* **Layout de projeto**: o produto permanece fixo, os recursos produtivos é que se descolam para construí-lo. Neste tipo de layout, é bem comum o alto uso do sequenciamento de tarefas. Exemplo de uso são a construção de embarcações, como iates, navios...
+* **Centro de trabalho**: o produto se movimenta entre as diversas áreas de produção, cada qual responsável por uma operação na construção do produto.
+* **Célula de produção**: é uma área dedicada em que são fabricados produtos semelhantes quanto aos requisitos de produção. São projetas para executar um grupo específico de tarefas e produzir um grupo específico de produtos.
+* **Linha de montagem**: os processo de trabalho são organizados e ordenados de acordo com o progresso de construção do produto. Exemplo são as fábricas de brinquedos e eletrodomésticos
+
+### Quais os tipos de layout?
+
+* **Produto** ou **Linear**: o produto se movimenta entre as estações de trabalho e estas vão finalizando processos de produção ou adicionando peças. A ordem já é pré-estabelecida dentro do processo produtivo. A principal vantagem é o baixo custo unitário do produto, assim como baixo custo para treinamento de mão-de-obra. A principal desvatagem é a facilidade de se ter gargalos. A falta de flexibilidade, baixo uso de reaproveitamento de máquinas e mão-de-obra
+* **Processo** ou **Funcional**: o produto se movimenta entre as estações, mas não há a produção somente de um produto, mas mais de um, com fluxo diferentes. Tem-se como vantagem a flexibilidade e portanto, seu uso é interessante quando a produção é intermitente.
+* **Fixo** ou **Posicional**: o produto permanece fixo, sendo que as os recursos produtivos, como máquinas e pessoas se movimentam para criar o produto. Uma característica interessante é que os produtos são únicos e não repetitivos.
+* **Celular**: todo processo de fabricação fica dentro de uma estação (célula) de trabalho, que é responsável pela produção de um ou mais produtos. O exemplo de uso é uma Loja de Departamentos.
+
+Fonte importante: https://www.pciconcursos.com.br/aulas/administracao-geral/17-layout-da-producao-e-instalacao-arranjo-fisico-e-fluxo a partir do tempo 11:30
+
+
+Playlist de consulta: https://www.pciconcursos.com.br/aulas/administracao-geral/
