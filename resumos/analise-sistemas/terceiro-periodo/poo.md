@@ -30,3 +30,21 @@ Princípios da Orientação a Objeto enumeradas por [Alan Kay](https://pt.wikipe
 * **Atributos**: propriedade nomeada do objeto que é capaz de armazenar um estado / valor
 * **Método**: é uma operação que o objeto poderá executar
 * **Mensagem**: é a chamada de um método de um objeto, no qual poderá ser passado determinados parâmetros e / ou esperar determinados valores / estados.
+
+### Padrões de Projetos (Aula PCA)
+
+#### Padrão MVC - Model View Controller
+
+* **Camada de Model (domínio)**: aonde eu implemento as classes do Diagrama de Classes e é a camada de dados
+* **Camada de View (visualização)**: responsável pela apresentação
+* **Camada de Controller (controle)**: responsável pela implementação do Diagrama de Casos de Uso.
+
+* Para cada classe no Diagrama de Classes, também se cria uma classe no pacote domínio
+* Para cada classe no Caso de Uso, também se cria uma classe no pacote controller.
+* Cada caso de uso vira um método numa classe.
+
+#### Padrão Javabeans:
+
+* Declaração dos atributos privados
+* Métodos construtor (mesmo que vazio)
+* Métodos Get e Set para cada atributo
