@@ -189,3 +189,35 @@ Fonte importante: https://www.pciconcursos.com.br/aulas/administracao-geral/17-l
 
 
 Playlist de consulta: https://www.pciconcursos.com.br/aulas/administracao-geral/
+
+## Padronização do trabalho
+
+Porque padronizar os processos?
+
+* aumento do tempo produtivo
+* redução de falhas
+* regulamentação das funções
+
+Segundo Monden, a padronização do trabalho inclui:
+
+* **Tempo takt**: tempo máximo que uma unidade do produto deve levar para ser produzida, ditado pela demanda do produto
+* **Rotina-padrão**: é um conjunto de operações executadas por um operador em uma sequência determinada, permitindo-lhe repetir o ciclo de forma consistente ao longo do tempo.
+* **Estoque padrão em processo**: estoque necessário para que a produção se mantenha constante
+
+Ainda segundo Mondem, com a padronização, temos 3 objetivos:
+
+1. Obter alta produtividade
+2. Obter balanceamento entre os diferentes processos produtivos, usando o conceito de *takt time*
+3. Somente uma quantidade mínima de material é consumida e manipulada durante o processo
+
+Segundo Spear e Bowen, as empresas precisam seguir 4 regras para ter sua padronização do trabalho:
+
+1. Todo trabalho deve ser altamente especificado quanto ao conteúdo, sequencia, andamento e resultado
+2. Cada conexão entre cliente-fornecedor deve ser direta
+3. O caminho para cada produto ou serviço deve ser simples e direto
+4. Qualquer melhoria deve ser feita de acordo com o método científico
+
+### Diferenças entre o takt time e o tempo de ciclo
+
+* **Takt time**: ritmo de produção necessário para atender a um determinado nível de demanda
+* **Tempo de ciclo**: tempo de execução da operação em um posto de trabalho
