@@ -1,10 +1,37 @@
 # Modelagem de Processos Organizacionais
 
-- [Teorias da Administração](#teorias-da-administra%C3%A7%C3%A3o)
-  - [O que seriam sistemas abertos?](#o-que-seriam-sistemas-abertos)
-  - [O que seria a Teoria Geral dos Sistemas?](#o-que-seria-a-teoria-geral-dos-sistemas)
-  - [O que seria a Teoria sociotécnica?](#o-que-seria-a-teoria-sociot%C3%A9cnica)
-  - [O que seria a Teoria da contingência?](#o-que-seria-a-teoria-da-conting%C3%AAncia)
+- [Modelagem de Processos Organizacionais](#modelagem-de-processos-organizacionais)
+  - [Teorias da Administração](#teorias-da-administracao)
+    - [O que seriam sistemas abertos?](#o-que-seriam-sistemas-abertos)
+    - [O que seria a Teoria Geral dos Sistemas?](#o-que-seria-a-teoria-geral-dos-sistemas)
+    - [O que seria a Teoria sociotécnica?](#o-que-seria-a-teoria-sociotecnica)
+    - [O que seria a Teoria da contingência?](#o-que-seria-a-teoria-da-contingencia)
+    - [Teoria Científica da Administração](#teoria-cientifica-da-administracao)
+    - [Teoria Clássica e neoclássica](#teoria-classica-e-neoclassica)
+      - [Processo administrativo](#processo-administrativo)
+      - [O que é organograma?](#o-que-e-organograma)
+      - [Conceitos de linha e staff](#conceitos-de-linha-e-staff)
+    - [Teoria das relações humanas](#teoria-das-relaces-humanas)
+    - [Teorias comportamentais e de liderança](#teorias-comportamentais-e-de-lideranca)
+      - [Hierarquia das necessidades humanas de Maslow](#hierarquia-das-necessidades-humanas-de-maslow)
+      - [Teoria X](#teoria-x)
+      - [Teoria Y](#teoria-y)
+      - [Teoria dos dois fatores](#teoria-dos-dois-fatores)
+    - [O que é burocracia?](#o-que-e-burocracia)
+  - [A produção como ferramenta estratégica](#a-producao-como-ferramenta-estrategica)
+    - [O que é estratégia?](#o-que-e-estrategia)
+    - [Quais os níveis da estratégia?](#quais-os-niveis-da-estrategia)
+    - [Quem afeta o estabelecimento de prioridades da produção](#quem-afeta-o-estabelecimento-de-prioridades-da-producao)
+  - [Layout de produção](#layout-de-producao)
+    - [O que é um layout de produção?](#o-que-e-um-layout-de-producao)
+    - [Quais os tipos de arranjo físico?](#quais-os-tipos-de-arranjo-fisico)
+    - [Quais os tipos de layout?](#quais-os-tipos-de-layout)
+  - [Padronização do trabalho](#padronizacao-do-trabalho)
+    - [Diferenças entre o takt time e o tempo de ciclo](#diferencas-entre-o-takt-time-e-o-tempo-de-ciclo)
+  - [PDCA - Plan, Do, Check, Act](#pdca---plan--do--check--act)
+    - [Ativos de uma organização](#ativos-de-uma-organizacao)
+    - [O método PDCA](#o-metodo-pdca)
+  - [Diagrama de Ishikawa](#diagrama-de-ishikawa)
 
 ## Teorias da Administração
 
@@ -221,3 +248,35 @@ Segundo Spear e Bowen, as empresas precisam seguir 4 regras para ter sua padroni
 
 * **Takt time**: ritmo de produção necessário para atender a um determinado nível de demanda
 * **Tempo de ciclo**: tempo de execução da operação em um posto de trabalho
+
+## PDCA - Plan, Do, Check, Act
+
+### Ativos de uma organização
+
+* **Ativos de capital**: direcionado pelo mercado pela realização de investimentos diretos feitos pelos acionistas ou proprietários. Está relacionado com a capacidade de acumular tecnologias, equipamentos e instalações.
+* **Ativos de conhecimento**: é a agregação de conhecimento e crescimento intelectual dos colaboradores da organização. Está relacionado às pessoas.
+
+Uma empresa, para se tornar competitiva, não pode menosprezar o poder dos ativos de conhecimentos.
+
+Segundo Falconi, alguns fatores indispensáveis para a acumulação de conhecimento:
+
+* **Tempo**: a curva de aprendizagem de cada pessoa é diferente
+* **Metas**: é importante ter objetivos na aprendizagem
+* **Cultura**: é importante que haja uma cultura de insatisfação, busca de inovação
+
+### O método PDCA
+
+Este método não é usado somente para a busca de resultados, mas também para mantê-los.
+
+* **Plan**: planejar metas e como alcançá-las
+* **Do**: é a execução do que foi planejado
+* **Check**: a partir do que foi feito, encontra-se pontos de melhorias. É a reflexão do que foi feito
+* **Act**: é quando se coloca em prática as correções
+
+A seguir, uma imagem mostrando o diagrama PDCA:
+
+![PDCA](../images/modelagem-processos/diagrama-pdca.png)
+
+## Diagrama de Ishikawa
+
+Veja o link a seguir: http://www.portal-administracao.com/2014/08/diagrama-de-ishikawa-causa-e-efeito.html
