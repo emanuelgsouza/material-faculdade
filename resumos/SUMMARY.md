@@ -15,3 +15,8 @@
   + [Engenharia de Requisitos](./analise-sistemas/terceiro-periodo/engenharia-requisitos.md)
   + [Modelagem de Processos Organizacionais](./analise-sistemas/terceiro-periodo/modelagem-processos.md)
   + [Libras](./analise-sistemas/terceiro-periodo/libras.md)
+
+* 4° Período em Analise de Sistemas
+  + [Projeto de Banco de Dados](./analise-sistemas/quarto-periodo/projeto-banco-dados.md)
+  + [Arquitetura e Processos de Software](./analise-sistemas/quarto-periodo/arquitetura-software.md)
+  + [Teste e Qualidade de Software](./analise-sistemas/quarto-periodo/testes.md)
