@@ -145,13 +145,23 @@ Os *níveis de teste* surgem no Modelo V. Inicialmente, os níveis de teste indi
     * Capacidade de acesso concorrente
     * Tempo de resposta
     * Consumo de recursos
+    * Quantidade de acessos concorrentes:
+     * **Testes de Carga**: dentro das condições esperadas de carga, como seu sistema fica?
+     * **Testes de Estresse**: impor uma carga acima do esperado
+     * **Testes de Capacidade**: qual a capacidade do meu sistema?
+     * **Testes de Resistência**: aplicar teste de carga continuamente, para ver até onde o sistema 
+    * Quantidade de dados:
+     * **Testes de Volume**: qual volume máximo de dados meu sistema suporta
 * Contingência / Recuperação
     * Quanto tempo ocorre a recuperação após uma falha
     * Métrica: ***Tempo médio de Reparo (MTTR)***
+    * [Acordo de Nível de Serviço](https://blog.deskmanager.com.br/acordo-de-nivel-de-servico/)
     * Verifica se sua política de contingência funciona
         * Documentar o Processo de Recuperação
 * Segurança/Vulnerabilidade
     * Os meus dados estão protegidos?
+    * Quais vulnerabilidades meu sistema está sujeito?
+    * Ferramenta bem usada: OWASP ZAP
     * Ferramentas
         * Estáticos
             * SonarQube
