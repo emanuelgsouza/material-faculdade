@@ -488,6 +488,26 @@
 <h3 id="3&#xB0;-fn">3&#xB0; FN</h3>
 <p>N&#xE3;o deve haver depend&#xEA;ncia transitiva (funcional). Ou seja, um ou mais atributos  que dependam de outros atributos que n&#xE3;o fa&#xE7;am parte da chave</p>
 <h3 id="boyce-codd">Boyce Codd</h3>
+<h2 id="mapeamento-oo---modelo-conceitual">Mapeamento OO -&gt; Modelo Conceitual</h2>
+<h3 id="conceitual-vs-l&#xF3;gico-vs-f&#xED;sico">Conceitual vs L&#xF3;gico vs F&#xED;sico</h3>
+<ul>
+<li><strong>Conceitual</strong>: trata dos conceitos, e mais pr&#xF3;ximo do usu&#xE1;rio. &#xC9; alto n&#xED;vel.</li>
+<li><strong>L&#xF3;gico</strong>: trata da l&#xF3;gica dos esquemas relacionais. Uma implementa&#xE7;&#xE3;o do diagrama de classes, com chaves prim&#xE1;rias e estrangeiras e os campos das tabelas</li>
+<li><strong>F&#xED;sico</strong>: &#xE9; a implementa&#xE7;&#xE3;o do modelo l&#xF3;gico. H&#xE1; restri&#xE7;&#xF5;es naquele campo? Qual o tamanho m&#xE1;ximo para um campo nome?</li>
+</ul>
+<p>Alguns exemplos de nota&#xE7;&#xE3;o:</p>
+<pre><code>- * = 0..*
+- 1 = 1..1 (2 = 2..2, ...)
+- 0..1 = 0..1 (&#xE9; necess&#xE1;rio mapear a cardinalidade corretamente)
+</code></pre><h3 id="quando-um-relacionamento-vira-uma-tabela">Quando um relacionamento vira uma tabela?</h3>
+<ul>
+<li>Muitos para muitos -&gt; cria-se uma tabela &quot;auxiliar&quot;</li>
+<li>Muitos para um -&gt; n&#xE3;o</li>
+<li>Um para muitos -&gt; n&#xE3;o</li>
+<li>Um para Um -&gt; n&#xE3;o (em casos especiais, cria-se uma tabela auxiliar)</li>
+</ul>
+<p>A seguir, dois exemplos de mapeamentos OO para Relacional:</p>
+<p><img src="../images/projeto-banco-dados/oo-relacional.jpg" alt="Exemplo de Mapeamento"></p>
 
                                 
                                 </section>
@@ -527,7 +547,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Projeto de Banco de Dados","level":"1.5.1","depth":2,"next":{"title":"Arquitetura e Processos de Software","level":"1.5.2","depth":2,"path":"analise-sistemas/quarto-periodo/arquitetura-software.md","ref":"./analise-sistemas/quarto-periodo/arquitetura-software.md","articles":[]},"previous":{"title":"4° Período em Analise de Sistemas","level":"1.5","depth":1,"ref":"","articles":[{"title":"Projeto de Banco de Dados","level":"1.5.1","depth":2,"path":"analise-sistemas/quarto-periodo/projeto-banco-dados.md","ref":"./analise-sistemas/quarto-periodo/projeto-banco-dados.md","articles":[]},{"title":"Arquitetura e Processos de Software","level":"1.5.2","depth":2,"path":"analise-sistemas/quarto-periodo/arquitetura-software.md","ref":"./analise-sistemas/quarto-periodo/arquitetura-software.md","articles":[]},{"title":"Teste e Qualidade de Software","level":"1.5.3","depth":2,"path":"analise-sistemas/quarto-periodo/testes.md","ref":"./analise-sistemas/quarto-periodo/testes.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"analise-sistemas/quarto-periodo/projeto-banco-dados.md","mtime":"2018-09-25T11:37:20.620Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-25T11:45:18.740Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Projeto de Banco de Dados","level":"1.5.1","depth":2,"next":{"title":"Arquitetura e Processos de Software","level":"1.5.2","depth":2,"path":"analise-sistemas/quarto-periodo/arquitetura-software.md","ref":"./analise-sistemas/quarto-periodo/arquitetura-software.md","articles":[]},"previous":{"title":"4° Período em Analise de Sistemas","level":"1.5","depth":1,"ref":"","articles":[{"title":"Projeto de Banco de Dados","level":"1.5.1","depth":2,"path":"analise-sistemas/quarto-periodo/projeto-banco-dados.md","ref":"./analise-sistemas/quarto-periodo/projeto-banco-dados.md","articles":[]},{"title":"Arquitetura e Processos de Software","level":"1.5.2","depth":2,"path":"analise-sistemas/quarto-periodo/arquitetura-software.md","ref":"./analise-sistemas/quarto-periodo/arquitetura-software.md","articles":[]},{"title":"Teste e Qualidade de Software","level":"1.5.3","depth":2,"path":"analise-sistemas/quarto-periodo/testes.md","ref":"./analise-sistemas/quarto-periodo/testes.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"analise-sistemas/quarto-periodo/projeto-banco-dados.md","mtime":"2018-10-06T17:38:45.930Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-06T17:40:29.710Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
