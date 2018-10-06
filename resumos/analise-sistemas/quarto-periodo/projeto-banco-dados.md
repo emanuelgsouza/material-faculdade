@@ -83,3 +83,30 @@ Não pode haver dependência funcional parcial de chave primária, ou seja, um o
 Não deve haver dependência transitiva (funcional). Ou seja, um ou mais atributos  que dependam de outros atributos que não façam parte da chave
 
 ### Boyce Codd
+
+## Mapeamento OO -> Modelo Conceitual
+
+### Conceitual vs Lógico vs Físico
+
+* **Conceitual**: trata dos conceitos, e mais próximo do usuário. É alto nível.
+* **Lógico**: trata da lógica dos esquemas relacionais. Uma implementação do diagrama de classes, com chaves primárias e estrangeiras e os campos das tabelas
+* **Físico**: é a implementação do modelo lógico. Há restrições naquele campo? Qual o tamanho máximo para um campo nome?
+
+Alguns exemplos de notação:
+
+```
+- * = 0..*
+- 1 = 1..1 (2 = 2..2, ...)
+- 0..1 = 0..1 (é necessário mapear a cardinalidade corretamente)
+```
+
+### Quando um relacionamento vira uma tabela?
+
+* Muitos para muitos -> cria-se uma tabela "auxiliar"
+* Muitos para um -> não
+* Um para muitos -> não
+* Um para Um -> não (em casos especiais, cria-se uma tabela auxiliar)
+
+A seguir, dois exemplos de mapeamentos OO para Relacional:
+
+![Exemplo de Mapeamento](../images/projeto-banco-dados/oo-relacional.jpg)
