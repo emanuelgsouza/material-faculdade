@@ -182,3 +182,34 @@ Os *níveis de teste* surgem no Modelo V. Inicialmente, os níveis de teste indi
 * Baseada em Especificação (caixa preta)
     * Insumo: documentação
     * Superfície: interface do usuário
+
+#### O que teste exploratório?
+
+Também conhecido como *Monkey Testing*, é quando o testador, de maneira bem simples e sem nenhum planejamento, fica testando de maneira aleatória o sistema (daí o termo *Monkey Testing*).
+
+### Critério de Teste e Casos de Teste
+
+> Em casos de teste para requisitos com range de valores é trabalhar nos limites
+
+> Ao se testar, isole o requisito que se quer testar
+
+* **Caso de teste**: dados de entrada + resultado esperado
+* **Procedimento de teste**: são os passos para a execução de um ou mais caso(s) de teste
+
+### Critérios de Seleção de Casos de Teste
+
+* **Particionamento em Classes de Equivalência**: aplica-se a restrição de domínio (range de valores) no contexto de Banco de Dados.
+* **Análise de Valor-Limite**: é uma melhoria do item anterior, que, em vez de escolher aleatoriamente um valor qualquer, se escolhe os valores limites na hora de testar
+* **Tabela de Decisão**
+* **Transição de Estados**: testa-se a partir do diagrama de máquina de estados
+* **Array Ortogonal (todos-os-pares ou All Pairs)**:
+    * Em vez de testar todas as combinações, eu testo pares delas
+    * Para se colocar o indiferente, é necessário colocar um til com o valor do range `~`
+    * Ferramentas:
+        * http://www.satisfice.com/tools.shtml ou 
+        * https://pairwise.teremokgames.com/
+
+### Teste relacionado a mudanças
+
+* **Teste de confirmação (resteste)**: eu testo o que havia falhado anteriormente
+* **Teste de regressão**: garantir que defeitos corrigidos não tenham inseridos outros defeitos em outras partes do sistema. ***Restestar todo o sistema***. Ai surge a necessidade de se automatizar os testes
