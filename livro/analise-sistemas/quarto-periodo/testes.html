@@ -575,6 +575,39 @@
 </ul>
 </li>
 </ul>
+<h4 id="o-que-teste-explorat&#xF3;rio">O que teste explorat&#xF3;rio?</h4>
+<p>Tamb&#xE9;m conhecido como <em>Monkey Testing</em>, &#xE9; quando o testador, de maneira bem simples e sem nenhum planejamento, fica testando de maneira aleat&#xF3;ria o sistema (da&#xED; o termo <em>Monkey Testing</em>).</p>
+<h3 id="crit&#xE9;rio-de-teste-e-casos-de-teste">Crit&#xE9;rio de Teste e Casos de Teste</h3>
+<blockquote>
+<p>Em casos de teste para requisitos com range de valores &#xE9; trabalhar nos limites</p>
+<p>Ao se testar, isole o requisito que se quer testar</p>
+</blockquote>
+<ul>
+<li><strong>Caso de teste</strong>: dados de entrada + resultado esperado</li>
+<li><strong>Procedimento de teste</strong>: s&#xE3;o os passos para a execu&#xE7;&#xE3;o de um ou mais caso(s) de teste</li>
+</ul>
+<h3 id="crit&#xE9;rios-de-sele&#xE7;&#xE3;o-de-casos-de-teste">Crit&#xE9;rios de Sele&#xE7;&#xE3;o de Casos de Teste</h3>
+<ul>
+<li><strong>Particionamento em Classes de Equival&#xEA;ncia</strong>: aplica-se a restri&#xE7;&#xE3;o de dom&#xED;nio (range de valores) no contexto de Banco de Dados.</li>
+<li><strong>An&#xE1;lise de Valor-Limite</strong>: &#xE9; uma melhoria do item anterior, que, em vez de escolher aleatoriamente um valor qualquer, se escolhe os valores limites na hora de testar</li>
+<li><strong>Tabela de Decis&#xE3;o</strong></li>
+<li><strong>Transi&#xE7;&#xE3;o de Estados</strong>: testa-se a partir do diagrama de m&#xE1;quina de estados</li>
+<li><strong>Array Ortogonal (todos-os-pares ou All Pairs)</strong>:<ul>
+<li>Em vez de testar todas as combina&#xE7;&#xF5;es, eu testo pares delas</li>
+<li>Para se colocar o indiferente, &#xE9; necess&#xE1;rio colocar um til com o valor do range <code>~</code></li>
+<li>Ferramentas:<ul>
+<li><a href="http://www.satisfice.com/tools.shtml" target="_blank">http://www.satisfice.com/tools.shtml</a> ou </li>
+<li><a href="https://pairwise.teremokgames.com/" target="_blank">https://pairwise.teremokgames.com/</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="teste-relacionado-a-mudan&#xE7;as">Teste relacionado a mudan&#xE7;as</h3>
+<ul>
+<li><strong>Teste de confirma&#xE7;&#xE3;o (resteste)</strong>: eu testo o que havia falhado anteriormente</li>
+<li><strong>Teste de regress&#xE3;o</strong>: garantir que defeitos corrigidos n&#xE3;o tenham inseridos outros defeitos em outras partes do sistema. <strong><em>Restestar todo o sistema</em></strong>. Ai surge a necessidade de se automatizar os testes</li>
+</ul>
 
                                 
                                 </section>
@@ -614,7 +647,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Teste e Qualidade de Software","level":"1.5.3","depth":2,"previous":{"title":"Arquitetura e Processos de Software","level":"1.5.2","depth":2,"path":"analise-sistemas/quarto-periodo/arquitetura-software.md","ref":"./analise-sistemas/quarto-periodo/arquitetura-software.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"analise-sistemas/quarto-periodo/testes.md","mtime":"2018-10-06T17:40:12.515Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-06T17:40:29.710Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Teste e Qualidade de Software","level":"1.5.3","depth":2,"previous":{"title":"Arquitetura e Processos de Software","level":"1.5.2","depth":2,"path":"analise-sistemas/quarto-periodo/arquitetura-software.md","ref":"./analise-sistemas/quarto-periodo/arquitetura-software.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"analise-sistemas/quarto-periodo/testes.md","mtime":"2018-10-09T12:17:11.034Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-09T12:23:22.492Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
