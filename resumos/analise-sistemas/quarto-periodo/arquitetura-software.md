@@ -163,3 +163,39 @@ Momento que se verifica se há coisas a melhorar em relação ao desenvolvimento
 #### Backlog do Produto
 
 É uma lista ordenada por prioridade com todas as tarefas concernentes ao projeto
+
+## XP - eXtreme Programming
+
+> Faça mais do que funciona e faça menos do que não funciona. Kent Beck
+
+### Valores do XP
+
+* **Simplicidade**: todo projeto baseado no XP busca ser o mais simples e funcional possível. Tal simplicidade se reflete no processo de desenvolvimento, sendo assim, a quantidade de artefatos é reduzida para: *requisitos*, *planos* e o *produto*.
+* **Comunicação** 
+* **Retroalimentação**: o XP é um método orientado a feedbacks, em que constantemente se busca ter feedbacks de todos os envolvidos no produto, desde o cliente até o desenvolvedor.
+* **Coragem**
+
+### Processo do XP
+
+O XP é um processo de software iterativo e incremental. Cada projeto é subdividido em projeto menores, até chegar ao menor projeto, a *release*, que é um incremento que faça sentido para o negócio.
+
+1. **Jogo do Planejamento**: consiste em três etapas
+	1. **Exploração**: o cliente escreve as estórias de usuário em cartões. Aqui o cliente define e deixa claro o que ele espera daquela funcionalidade
+	2. **Planejamento**: negociação e estimar prazos para execução das estórias.
+	3. **Direção**: delimitado os prazos, é necessário assegurar que os mesmos serão cumpridos.
+2. **Desenvolvimento**: iterações de 2 a 3 semanas, para o desenvolvimento das estórias de usuários planejadas e priorizadas
+
+### Práticas do XP
+
+* **Jogo do Planejamento**
+* **Pequenas versões**
+* **Design Simples**
+* **Metáfora**: é uma simples descrição de como o sistema funciona
+* **Teste contínuo**: TDD
+* **Refatoração “Impiedosa”**: se é possível refatorar (simplificar o código), refatore.
+* **Programação em pares**
+* **Propriedade Coletiva do Código**: o código (produto), é responsabilidade de todos
+* **Integração Contínua**
+* **Semana de Trabalho de 40 horas (Ritmo Sustentável)**: horas extras são evitadas
+* **Cliente no Local (On-site)**
+* **Padrões de Codificação**
