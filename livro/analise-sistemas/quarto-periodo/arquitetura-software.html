@@ -558,6 +558,64 @@
 <li><strong>Cliente no Local (On-site)</strong></li>
 <li><strong>Padr&#xF5;es de Codifica&#xE7;&#xE3;o</strong></li>
 </ul>
+<h2 id="ger&#xEA;ncia-de-configura&#xE7;&#xE3;o">Ger&#xEA;ncia de Configura&#xE7;&#xE3;o</h2>
+<blockquote>
+<p>Disciplina que identifica a configura&#xE7;&#xE3;o do sistema em diferentes momentos, visando o controle das modifica&#xE7;&#xF5;es nesse sistema</p>
+</blockquote>
+<p>A Ger&#xEA;ncia de Configura&#xE7;&#xE3;o &#xE9; reconhecidade pela norma ISO/IEC12207 e &#xE9; prevista formalmente no RUP.</p>
+<p>O GC sempre se baseia em alguns padr&#xF5;es. Tais padr&#xF5;es definem:</p>
+<ul>
+<li>Como os items que compoem o software s&#xE3;o identificados</li>
+<li>Como as mudan&#xE7;as s&#xE3;o gerenciadas</li>
+<li>Como novas releases s&#xE3;o criadas</li>
+</ul>
+<p>A GC sempre est&#xE1; relacionada &#xE0; garantia de qualidade do software. Garantir a Qualidade aqui, &#xE9; pretender que os padr&#xF5;es de qualidade estabelecidos, sejam cumpridos.</p>
+<h3 id="planejamento-da-ger&#xEA;ncia-da-configura&#xE7;&#xE3;o">Planejamento da Ger&#xEA;ncia da Configura&#xE7;&#xE3;o</h3>
+<p>O planejamento deve:</p>
+<ul>
+<li>Identificar a equipe e as ferramentas que ser&#xE3;o usadas</li>
+<li>Estabeler um cronograma das atividades</li>
+<li>Identificar como os dois itens anteriores se relacionam</li>
+</ul>
+<p>Com uma boa GC, &#xE9; poss&#xED;vel ter em m&#xE3;os algumas m&#xE9;tricas de qualidade:</p>
+<ul>
+<li>&#xCD;ndice de retrabalho</li>
+<li>Tempo m&#xE9;dio entre falhas</li>
+<li>Modularidade dos componentes</li>
+</ul>
+<p>Um bom planejamento, precisa levar em considera&#xE7;&#xE3;o alguns fatores importantes, como se um m&#xF3;dulo interfere em outro, se o projeto possui geradores de documenta&#xE7;&#xE3;o e como ger&#xE1;-los a cada <em>release</em>, entre outras coisas.</p>
+<h3 id="plano-de-gerenciamento-de-configura&#xE7;&#xE3;o-de-software">Plano de Gerenciamento de Configura&#xE7;&#xE3;o de Software</h3>
+<p>Qualquer mudan&#xE7;a e resultado do planejamento, precisa ser registrado num plano de gerenciamento de configura&#xE7;&#xE3;o de software. Este documento servir&#xE1; de refer&#xEA;ncia no projeto.</p>
+<h4 id="monitora&#xE7;&#xE3;o-da-ger&#xEA;ncia-da-configura&#xE7;&#xE3;o">Monitora&#xE7;&#xE3;o da Ger&#xEA;ncia da Configura&#xE7;&#xE3;o</h4>
+<p>Ap&#xF3;s planejado e criado o plano, &#xE9; necess&#xE1;rio monitor&#xE1;-lo.</p>
+<h4 id="m&#xE9;tricas-e-medidas-de-ger&#xEA;ncia-da-configura&#xE7;&#xE3;o">M&#xE9;tricas e Medidas de Ger&#xEA;ncia da Configura&#xE7;&#xE3;o</h4>
+<p>&#xC9; poss&#xED;vel tamb&#xE9;m medir como est&#xE1; andando o gerenciamento do software. Algumas m&#xE9;tricas que s&#xE3;o usadas:</p>
+<ul>
+<li>Tempo para realiza&#xE7;&#xE3;o de mudan&#xE7;as</li>
+<li>Tempo para compila&#xE7;&#xE3;o do sistema</li>
+<li>&#xCD;ndice de aceita&#xE7;&#xE3;o a mudan&#xE7;as</li>
+</ul>
+<h3 id="identifica&#xE7;&#xE3;o-de-configura&#xE7;&#xE3;o-de-software">Identifica&#xE7;&#xE3;o de Configura&#xE7;&#xE3;o de Software</h3>
+<p>Caracteriza os itens que ser&#xE3;o controlados, bem como estabelece os esquemas de identifica&#xE7;&#xE3;o para tais itens quando novas releases forem sendo feitas.</p>
+<h4 id="identifica&#xE7;&#xE3;o-dos-itens-a-serem-controlados">Identifica&#xE7;&#xE3;o dos Itens a Serem Controlados</h4>
+<ol>
+<li>Entender a configura&#xE7;&#xE3;o do software no contexto da configura&#xE7;&#xE3;o do
+sistema</li>
+<li>Selecionar os itens de configura&#xE7;&#xE3;o de software</li>
+<li>Desenvolver uma estrat&#xE9;gia para rotular os itens de configura&#xE7;&#xE3;o de
+software</li>
+<li>Descrever os relacionamentos entre os itens</li>
+</ol>
+<p>Alguns conceitos:</p>
+<ul>
+<li><strong>Item de Configura&#xE7;&#xE3;o do Software</strong>: &#xE9; uma parte integrante do software que ser&#xE1; gerenciado. Pode ser uma documenta&#xE7;&#xE3;o ou o c&#xF3;digo fonte, entre outros</li>
+<li><strong>Relacionamentos entre os Itens de Configura&#xE7;&#xE3;o de Software</strong>: &#xE9; importante entender como os diferentes itens se relacionam, de maneira a entender os impactos que um pode causar no outro.</li>
+<li><strong>Vers&#xE3;o</strong>: &#xE9; um item de configura&#xE7;&#xE3;o em um dado momento. Mostra a evolu&#xE7;&#xE3;o de um item, tamb&#xE9;m.</li>
+<li><strong>Baseline</strong>: consiste num conjunto de itens que compoem o software em um dado momento. &#xC9; como uma fotografia (<em>snapshot</em>)</li>
+<li><strong>Biblioteca</strong>: segundo a IEEE 610, <code>Uma biblioteca de software &#xE9; uma cole&#xE7;&#xE3;o controlada de software e documenta&#xE7;&#xE3;o relacionada, sendo projetada para auxiliar no desenvolvimento, uso e manuten&#xE7;&#xE3;o de software</code>.</li>
+<li><strong>Controle de Mudan&#xE7;as</strong>: abrange o processo de quais mudan&#xE7;as ser&#xE3;o feitas, aprova&#xE7;&#xE3;o destas mudan&#xE7;as entre outras coisas.</li>
+<li><strong>Gerenciamento de Libera&#xE7;&#xF5;es</strong>: engloba a identifica&#xE7;&#xE3;o, empacotamento e a entrega dos itens que est&#xE3;o no <em>baseline</em> do produto.</li>
+</ul>
 
                                 
                                 </section>
@@ -601,7 +659,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Arquitetura e Processos de Software","level":"1.5.2","depth":2,"next":{"title":"Teste e Qualidade de Software","level":"1.5.3","depth":2,"path":"analise-sistemas/quarto-periodo/testes.md","ref":"./analise-sistemas/quarto-periodo/testes.md","articles":[]},"previous":{"title":"Projeto de Banco de Dados","level":"1.5.1","depth":2,"path":"analise-sistemas/quarto-periodo/projeto-banco-dados.md","ref":"./analise-sistemas/quarto-periodo/projeto-banco-dados.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"analise-sistemas/quarto-periodo/arquitetura-software.md","mtime":"2018-10-17T02:50:22.164Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-17T02:53:20.007Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Arquitetura e Processos de Software","level":"1.5.2","depth":2,"next":{"title":"Teste e Qualidade de Software","level":"1.5.3","depth":2,"path":"analise-sistemas/quarto-periodo/testes.md","ref":"./analise-sistemas/quarto-periodo/testes.md","articles":[]},"previous":{"title":"Projeto de Banco de Dados","level":"1.5.1","depth":2,"path":"analise-sistemas/quarto-periodo/projeto-banco-dados.md","ref":"./analise-sistemas/quarto-periodo/projeto-banco-dados.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"analise-sistemas/quarto-periodo/arquitetura-software.md","mtime":"2018-10-30T02:41:37.668Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-30T03:09:46.012Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
