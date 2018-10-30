@@ -199,3 +199,72 @@ O XP é um processo de software iterativo e incremental. Cada projeto é subdivi
 * **Semana de Trabalho de 40 horas (Ritmo Sustentável)**: horas extras são evitadas
 * **Cliente no Local (On-site)**
 * **Padrões de Codificação**
+
+## Gerência de Configuração
+
+> Disciplina que identifica a configuração do sistema em diferentes momentos, visando o controle das modificações nesse sistema
+
+A Gerência de Configuração é reconhecidade pela norma ISO/IEC12207 e é prevista formalmente no RUP.
+
+O GC sempre se baseia em alguns padrões. Tais padrões definem:
+
+* Como os items que compoem o software são identificados
+* Como as mudanças são gerenciadas
+* Como novas releases são criadas
+
+A GC sempre está relacionada à garantia de qualidade do software. Garantir a Qualidade aqui, é pretender que os padrões de qualidade estabelecidos, sejam cumpridos.
+
+### Planejamento da Gerência da Configuração
+
+O planejamento deve:
+
+* Identificar a equipe e as ferramentas que serão usadas
+* Estabeler um cronograma das atividades
+* Identificar como os dois itens anteriores se relacionam
+
+Com uma boa GC, é possível ter em mãos algumas métricas de qualidade:
+
+* Índice de retrabalho
+* Tempo médio entre falhas
+* Modularidade dos componentes
+
+Um bom planejamento, precisa levar em consideração alguns fatores importantes, como se um módulo interfere em outro, se o projeto possui geradores de documentação e como gerá-los a cada *release*, entre outras coisas.
+
+### Plano de Gerenciamento de Configuração de Software
+
+Qualquer mudança e resultado do planejamento, precisa ser registrado num plano de gerenciamento de configuração de software. Este documento servirá de referência no projeto.
+
+#### Monitoração da Gerência da Configuração
+
+Após planejado e criado o plano, é necessário monitorá-lo.
+
+#### Métricas e Medidas de Gerência da Configuração
+
+É possível também medir como está andando o gerenciamento do software. Algumas métricas que são usadas:
+
+* Tempo para realização de mudanças
+* Tempo para compilação do sistema
+* Índice de aceitação a mudanças
+
+### Identificação de Configuração de Software
+
+Caracteriza os itens que serão controlados, bem como estabelece os esquemas de identificação para tais itens quando novas releases forem sendo feitas.
+
+#### Identificação dos Itens a Serem Controlados
+
+1. Entender a configuração do software no contexto da configuração do
+sistema
+1. Selecionar os itens de configuração de software
+2. Desenvolver uma estratégia para rotular os itens de configuração de
+software
+4. Descrever os relacionamentos entre os itens
+
+Alguns conceitos:
+
+* **Item de Configuração do Software**: é uma parte integrante do software que será gerenciado. Pode ser uma documentação ou o código fonte, entre outros
+* **Relacionamentos entre os Itens de Configuração de Software**: é importante entender como os diferentes itens se relacionam, de maneira a entender os impactos que um pode causar no outro.
+* **Versão**: é um item de configuração em um dado momento. Mostra a evolução de um item, também.
+* **Baseline**: consiste num conjunto de itens que compoem o software em um dado momento. É como uma fotografia (*snapshot*)
+* **Biblioteca**: segundo a IEEE 610, `Uma biblioteca de software é uma coleção controlada de software e documentação relacionada, sendo projetada para auxiliar no desenvolvimento, uso e manutenção de software`.
+* **Controle de Mudanças**: abrange o processo de quais mudanças serão feitas, aprovação destas mudanças entre outras coisas.
+* **Gerenciamento de Liberações**: engloba a identificação, empacotamento e a entrega dos itens que estão no *baseline* do produto.
