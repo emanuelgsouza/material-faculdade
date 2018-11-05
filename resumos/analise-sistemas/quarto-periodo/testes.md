@@ -213,3 +213,28 @@ Também conhecido como *Monkey Testing*, é quando o testador, de maneira bem si
 
 * **Teste de confirmação (resteste)**: eu testo o que havia falhado anteriormente
 * **Teste de regressão**: garantir que defeitos corrigidos não tenham inseridos outros defeitos em outras partes do sistema. ***Restestar todo o sistema***. Ai surge a necessidade de se automatizar os testes
+
+## Dia 05/11
+
+### Cobertura de Testes
+
+Cuidado com a quantidade de casos de testes. Eles podem estar cobrindo um módulo do projeto.
+
+O percentual de cobertura poderá ser crítico para alguns casos, e para outros nem tanto. Depende do projeto.
+
+O objetivo é atingir 100% de cobertura com o menor casos de teste
+
+#### Teste de sentença/comando (statement testing)
+
+1) Olhar o algorítimo
+2) Identificar as linhas que possuem comandos
+3) Identificar o que passar para o programa, de maneira que atinja todas as linhas, isto é, que todas sejam executadas, com a menor quantidade de casos de teste
+
+#### Teste de decisão (decision testing)
+
+Os casos de teste são modelados visando executar as linhas com decisão. Tal critério, sempre exigirá mais casos de teste do que o critério anterior, pois é mais aprofundado e mais assertivo.
+
+1) Reconhecer as linhas que possuem decisões (cuidado para esquecer elses não declarados, eles precisam ser contados)
+2) Mesmo passo dos anteriores
+
+> Obs: condicionais nos mesmos níveis, levarão a critérios de seleção de casos de teste com mesma quantidade de casos de teste
