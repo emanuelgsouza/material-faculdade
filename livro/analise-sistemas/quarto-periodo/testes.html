@@ -57,6 +57,8 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="poo-2.html" />
+    
     
     <link rel="prev" href="arquitetura-software.html" />
     
@@ -307,6 +309,19 @@
             
                     
                     Teste e Qualidade de Software
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="poo-2.html">
+            
+                <a href="poo-2.html">
+            
+                    
+                    Estrutura de Projetos OO
             
                 </a>
             
@@ -608,6 +623,22 @@
 <li><strong>Teste de confirma&#xE7;&#xE3;o (resteste)</strong>: eu testo o que havia falhado anteriormente</li>
 <li><strong>Teste de regress&#xE3;o</strong>: garantir que defeitos corrigidos n&#xE3;o tenham inseridos outros defeitos em outras partes do sistema. <strong><em>Restestar todo o sistema</em></strong>. Ai surge a necessidade de se automatizar os testes</li>
 </ul>
+<h2 id="dia-0511">Dia 05/11</h2>
+<h3 id="cobertura-de-testes">Cobertura de Testes</h3>
+<p>Cuidado com a quantidade de casos de testes. Eles podem estar cobrindo um m&#xF3;dulo do projeto.</p>
+<p>O percentual de cobertura poder&#xE1; ser cr&#xED;tico para alguns casos, e para outros nem tanto. Depende do projeto.</p>
+<p>O objetivo &#xE9; atingir 100% de cobertura com o menor casos de teste</p>
+<h4 id="teste-de-senten&#xE7;acomando-statement-testing">Teste de senten&#xE7;a/comando (statement testing)</h4>
+<p>1) Olhar o algor&#xED;timo
+2) Identificar as linhas que possuem comandos
+3) Identificar o que passar para o programa, de maneira que atinja todas as linhas, isto &#xE9;, que todas sejam executadas, com a menor quantidade de casos de teste</p>
+<h4 id="teste-de-decis&#xE3;o-decision-testing">Teste de decis&#xE3;o (decision testing)</h4>
+<p>Os casos de teste s&#xE3;o modelados visando executar as linhas com decis&#xE3;o. Tal crit&#xE9;rio, sempre exigir&#xE1; mais casos de teste do que o crit&#xE9;rio anterior, pois &#xE9; mais aprofundado e mais assertivo.</p>
+<p>1) Reconhecer as linhas que possuem decis&#xF5;es (cuidado para esquecer elses n&#xE3;o declarados, eles precisam ser contados)
+2) Mesmo passo dos anteriores</p>
+<blockquote>
+<p>Obs: condicionais nos mesmos n&#xED;veis, levar&#xE3;o a crit&#xE9;rios de sele&#xE7;&#xE3;o de casos de teste com mesma quantidade de casos de teste</p>
+</blockquote>
 
                                 
                                 </section>
@@ -635,10 +666,14 @@
 
             
                 
-                <a href="arquitetura-software.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Arquitetura e Processos de Software">
+                <a href="arquitetura-software.html" class="navigation navigation-prev " aria-label="Previous page: Arquitetura e Processos de Software">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="poo-2.html" class="navigation navigation-next " aria-label="Next page: Estrutura de Projetos OO">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -647,7 +682,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Teste e Qualidade de Software","level":"1.5.3","depth":2,"previous":{"title":"Arquitetura e Processos de Software","level":"1.5.2","depth":2,"path":"analise-sistemas/quarto-periodo/arquitetura-software.md","ref":"./analise-sistemas/quarto-periodo/arquitetura-software.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"analise-sistemas/quarto-periodo/testes.md","mtime":"2018-10-09T12:17:11.034Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-30T03:09:46.012Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Teste e Qualidade de Software","level":"1.5.3","depth":2,"next":{"title":"Estrutura de Projetos OO","level":"1.5.4","depth":2,"path":"analise-sistemas/quarto-periodo/poo-2.md","ref":"./analise-sistemas/quarto-periodo/poo-2.md","articles":[]},"previous":{"title":"Arquitetura e Processos de Software","level":"1.5.2","depth":2,"path":"analise-sistemas/quarto-periodo/arquitetura-software.md","ref":"./analise-sistemas/quarto-periodo/arquitetura-software.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./resumos","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"analise-sistemas/quarto-periodo/testes.md","mtime":"2018-11-22T01:01:45.793Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-11-22T01:25:05.479Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
