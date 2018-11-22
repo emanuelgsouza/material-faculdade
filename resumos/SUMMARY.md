@@ -20,3 +20,4 @@
   + [Projeto de Banco de Dados](./analise-sistemas/quarto-periodo/projeto-banco-dados.md)
   + [Arquitetura e Processos de Software](./analise-sistemas/quarto-periodo/arquitetura-software.md)
   + [Teste e Qualidade de Software](./analise-sistemas/quarto-periodo/testes.md)
+  + [Estrutura de Projetos OO](./analise-sistemas/quarto-periodo/poo-2.md)
