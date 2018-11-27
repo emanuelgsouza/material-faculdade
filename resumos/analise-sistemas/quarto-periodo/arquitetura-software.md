@@ -6,12 +6,12 @@ Surgiu como um processo iterativo e incremental. Ao fim dos anos 90, ainda estav
 
 ### Características principais
 
-* Iterativo e incremental: divide o processo em 4 fases.
-* Gerência de Requisitos: são completamente documentados e analisados.
-* Modelagem visual e padronizada: UML é adotado como única ferramenta de modelagem
-* Desenvolvimento baseado em componentes
-* Controlar mudanças
-* Verificar a qualidade
+* **Iterativo e incremental**: divide o processo em 4 fases.
+* **Gerência de Requisitos**: são completamente documentados e analisados.
+* **Modelagem visual e padronizada**: UML é adotado como única ferramenta de modelagem
+* **Desenvolvimento baseado em componentes**
+* **Controlar mudanças**
+* **Verificar a qualidade**
 
 O RUP compoem-se de 3 perspectivas: **estáticas**, **dinâmica** e **prática**
 
@@ -109,12 +109,12 @@ Evento ocorrido em 2001, nos EUA. Neste evento, foi criado o documentário de me
 * Processos ágeis promovem o desenvolvimento sustentável.
 *  Atenção contínua à excelência técnica e um bom design aumentaa agilidade.
 * Há uma busca de melhoramento contínua
-* As melhores definiçõesarquiteturais e de design,além das melhoresespecificações de requisitos, emergem de equipes auto-organizadas
+* As melhores definições arquiteturais e de design, além das melhores especificações de requisitos, emergem de equipes auto-organizadas
 * Seja simples, isto é, foque no que é de fato necessário e importante ao cliente
 
 ### Práticas Ágeis
 
-* **Integração contínua**: busca incessante e continua da integração dos diferentes membros da equipe(s)
+* **Integração contínua**: busca incessante e continua da integração dos diferentes membros da equipe
 * **Equipe completa**: busca por equipes interdisciplinares
 * **Propriedade coletiva do código**: o código e de propriedade e responsabilidade de todos
 * **Releases curtas**
@@ -138,7 +138,7 @@ Colocar link da formação Scrum do Rugby
 
 Ele se baseia em três pilares:
 
-* **Transparência**: significa garantir que os aspectossignificativos do processo devem ser visíveis para os envolvidos.
+* **Transparência**: significa garantir que os aspectos significativos do processo devem ser visíveis para os envolvidos.
 * **Inspeção**: os usuários do Scrum devem constantemente inspecionar os artefatos do projeto, visando cumprir uma meta a curto prazo.
 * **Adaptação**: se um inspetor visualizar que um artefato possui um problema, ele precisa ser ajustado.
 
@@ -148,7 +148,7 @@ Ele se baseia em três pilares:
 
 * Product Owner: pessoa responsável pela gerência do Backlog do produto, como por exemplo, caracterizar cada item do projeto. Qualquer mudança de prioridade precisa ser vista com o PO.
 * Equipe de Desenvolvimento: formado pelos desenvolvedores do time.
-* Scrum Master: e o cara responsável por garantir que o time esteja entregando. Prática o que se chama de liderança servidora. Auxilia tanto a equipe quanto o PO.
+* Scrum Master: e o cara responsável por garantir que o time esteja entregando. Pratica o que se chama de liderança servidora. Auxilia tanto a equipe quanto o PO.
 
 #### Atividades do Scrum
 
@@ -268,3 +268,37 @@ Alguns conceitos:
 * **Biblioteca**: segundo a IEEE 610, `Uma biblioteca de software é uma coleção controlada de software e documentação relacionada, sendo projetada para auxiliar no desenvolvimento, uso e manutenção de software`.
 * **Controle de Mudanças**: abrange o processo de quais mudanças serão feitas, aprovação destas mudanças entre outras coisas.
 * **Gerenciamento de Liberações**: engloba a identificação, empacotamento e a entrega dos itens que estão no *baseline* do produto.
+
+## Métricas de Software
+
+> sem métricas seremos apenas pessoas com opiniões diferentes. W Myers e L H Putnam
+
+### Formas de medição
+
+* **Direta**: é quando analisamos métricas quantificáveis, como por exemplo, a quantidade de linhas em um código fonte.
+* **Indireta**: é quando calculamos em cima de métricas quantificáveis, por exemplo, a densidade de defeitos em um módulo
+
+### O Processo de Medição de Software
+
+* **Estabelecendo e Sustentando o Comprometimento**: a empresa precisa ter a mentalidade orientada a redução de riscos e ao levantamento de métricas de desempenho
+* **O Planejamento da Medição**: o próximo passo é o levantamento de um método de levantamento de informações para as métricas, bem como quais serão as métricas avaliadas
+* **A Realização da Medição**
+* **A Coleta de Dados**
+* **A Análise dos Dados**
+* **A Avaliação da Medição**
+
+### Métricas a serem avaliadas numa medição
+
+Segundo Putnam e Myers, há 5 métricas essenciais na medição de software:
+
+* **Tamanho**: quantidade de linhas de código ou pontos por função, que diz respeito a quantidade de trabalho
+* **Produtividade**: quantidade de funcionalidades produzidas por tempo trabalhado
+* **Tempo**: duração do projeto
+* **Esforço**: quantidade de trabalho despendido em pessoas por mês (HM)
+* **Confiabilidade**: termos em faixa de defeitos
+
+### Análise por Ponto de Função
+
+É uma abordagem para estimativa do tamanho funcional do produto de software. Se relaciona com o conceito de ***tamanho funcional***.
+
+Já o conceito de tamanho funcional, se relaciona com a ***visão do usuário***, que são as descrições formais do usuário que diz respeito as necessidades do negócio expressas por ele.
