@@ -110,3 +110,21 @@ Alguns exemplos de notação:
 A seguir, dois exemplos de mapeamentos OO para Relacional:
 
 ![Exemplo de Mapeamento](../images/projeto-banco-dados/oo-relacional.jpg)
+
+### Mapeamento do Modelo ER para o Banco de Dados
+
+* Toda Entidade vira uma tabela
+* Todo relacionamento n para n, vira uma tabela
+
+### Projeto Lógico
+
+Se preocupa com o esquema relacional, criação de tabelas e relacionamentos, bem como seus atributos. Aqui que se preocupa em criar uma implementação física dos nossos diagramas. Se preocupa com a linguagem técnica, porém generalizada.
+
+### Índices
+
+> É uma estrutura auxiliar para recuperar os dados de forma eficiente. Estrutura secundária (à parte da tabela), armazenada em memória secundária. Armazena uma série de ponteiros para os endereços em memória da tabela.
+
+#### Tipos de Índices
+
+* **Índice primário**: são ordenados e não denso
+* **Índice secundário**: além do acesso primário, fornece o acesso secundário. Isto é, uma ocorrência no arquivo de índice, para cada ocorrência no arquivo de dados, e é denso
